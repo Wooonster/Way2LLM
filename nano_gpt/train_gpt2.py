@@ -4,10 +4,9 @@ import torch.nn as nn
 from torch.nn import functional as F
 import math
 from transformers import GPT2LMHeadModel
+import tiktoken
 
-
-# -------------------------------------------------------------------
-
+# ------------------------------------------------------------------------------------------------------------------------
 @dataclass
 class GPTConfigs:
     block_size: int = 1024    # max sequence length
@@ -69,7 +68,6 @@ class CausalSelfAttention(nn.Module):
         y = self.c_proj(y)
         return y
 
-
 class Block(nn.Module):
     def __init__(self, config):
         super().__init__()
@@ -83,7 +81,7 @@ class Block(nn.Module):
     and they are inside the residual stream
     '''
     
-    def foward(self, x):
+    def forward(self, x):
         " the attentions function is where the tokens communicate, it's a aggragation function "
         x += self.attn(self.ln_1(x))
 
@@ -105,6 +103,24 @@ class NanoGPT(nn.Module):
 
         # the final classifier, the language model head, projects the n_embed_dims to vocab_size
         self.lm_head = nn.Linear(config.n_embed, config.vocab_size, bias=False)
+
+    def forward(self, idx):
+        # idx is of shape (B, T)
+        B, T = idx.size()
+        assert T <= self.config.block_size, f"Cannot forward sequence length of length {T} which is larger than the max_seq_len, block size of {B}"
+        # forward the token and positional embedding
+        pos = torch.arange(0, T, dtype=torch.long, device=idx.device)
+        pos_emb = self.transformer.wpe(pos)  # position embeddings of shape (T, n_embed)
+        tok_emb = self.transformer.wte(idx)  # token embeddings of shape (B, T, n_embed)
+        x = tok_emb + pos_emb
+        # forward the blocks of the transformer
+        for block in self.transformer.h:
+            x = block(x)
+        # forward the final layernorm and the classifier
+        x = self.transformer.ln_f(x)
+        logits = self.lm_head(x)  # (B, T, vocab_size)
+        return logits
+
 
     " load params from huggingface transformers "
     @classmethod
@@ -155,6 +171,50 @@ class NanoGPT(nn.Module):
 
         return model
     
-# ------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------
+device = device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+# device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
 model = NanoGPT.from_pretrained('gpt2')
 print('worked')
+
+num_return_sequence = 5
+max_length = 40
+model.eval()
+model.to(device)
+
+# prefix tokens
+enc = tiktoken.get_encoding('gpt2')
+tokens = enc.encode('Mayday is a rock band from China,')
+tokens = torch.tensor(tokens, dtype=torch.long)  # (token_num, )
+tokens = tokens.unsqueeze(0).repeat(num_return_sequence, 1)  # (5, token_num)
+x = tokens.to(device)
+
+" Generate "
+# set seeds
+torch.manual_seed(5525)
+# torch.cuda.manual_seed(5525)
+torch.mps.manual_seed(5525)
+
+while x.size(1) < max_length:
+    while torch.no_grad():
+        logits = model(x)
+        # take the logits at the last position
+        logits = logits[:, -1, :]  # (B, vocab_size)
+        # get the probabilities
+        probs = F.softmax(logits, dim=-1)
+        # do top-k sampling of 50 (huggingface pipeline default)
+        # topk_probs here becomes (5, 50), topk_indices is (5, 50)
+        topk_probs, topk_indices = torch.topk(probs, 50, dim=-1)
+        # select a token from the top-k probabilities
+        # note: multinomial does not demand the input to sum to 1
+        ix = torch.multinomial(topk_probs, 1)
+        # gather the corresponding indices
+        xcol = torch.gather(topk_indices, -1, ix)  # (B, 1)
+        # append to the sequence
+        x = torch.cat((x, xcol), dim=1)
+
+for i in range(num_return_sequence):
+    tokens = x[i, :max_length].tolist()
+    decodeed = enc.decode(tokens)
+    print(">>>", decodeed)
