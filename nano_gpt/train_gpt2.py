@@ -21,6 +21,7 @@ class MLP(nn.Module):
         self.c_fc   = nn.Linear(config.n_embed, 4 * config.n_embed)
         self.gelu   = nn.GELU(approximate='tanh')  # nonlinearity, activation func
         self.c_proj = nn.Linear(4 * config.n_embed, config.n_embed)
+        self.c_proj.NANOGPT_SCALE_INIT = 1
     
     def forward(self, x):
         x = self.c_fc(x)
@@ -37,6 +38,7 @@ class CausalSelfAttention(nn.Module):
         # output projection
         " projecting the combined information from all the heads back into the original embedding space. "
         self.c_proj = nn.Linear(config.n_embed, config.n_embed)
+        self.c_proj.NANOGPT_SCALE_INIT = 1  # for scaling the weights of residual layers at initialization by a factor of 1/sqrt(N)
         # regularization
         self.n_head = config.n_head
         self.n_embed = config.n_embed
@@ -88,10 +90,12 @@ class Block(nn.Module):
     
     def forward(self, x):
         " the attentions function is where the tokens communicate, it's a aggragation function "
-        x += self.attn(self.ln_1(x))  # += : residual
+        x = x + self.attn(self.ln_1(x))  
+        
+        ' x += ... is change in-place, which disrupts the computation of gradients'
 
         " in the mlp, which happends every single token individually, no info being collected or exchanging "
-        x += self.mlp(self.ln_2(x))
+        x = x + self.mlp(self.ln_2(x))
         return x
 
 class NanoGPT(nn.Module):
@@ -113,7 +117,29 @@ class NanoGPT(nn.Module):
         # the final classifier, the language model head, projects the n_embed_dims to vocab_size
         self.lm_head = nn.Linear(config.n_embed, config.vocab_size, bias=False)
 
-    def forward(self, idx):
+        # weight sharing scheme
+        self.transformer.wte.weight = self.lm_head.weight
+
+        # init params
+        self.apply(self._init_weights)
+
+    " how gpt2 initialise the model "
+    " iterates the NanoGPT module"
+    def _init_weights(self, module):
+        std = 0.02
+        if hasattr(module, 'NANOGPT_SCALE_INIT'):
+            " scaling the weights of residual layers at initialization by a factor of 1/sqrt(N) "
+            # 2 -> every transformer layer has 2 blocks add to residual: attention and mlp
+            std *= (2 * self.config.n_layer) ** -0.5
+
+        if isinstance(module, nn.Linear):
+            torch.nn.init.normal_(module.weight, mean=0.0, std=std)
+            if module.bias is not None:
+                torch.nn.init.zeros_(module.bias)
+        elif isinstance(module, nn.Embedding):
+            torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
+
+    def forward(self, idx, targets=None):
         # idx: token index, is of shape (B, T), B: batch_size, T: sequence_length
         B, T = idx.size()
         assert T <= self.config.block_size, f"Cannot forward sequence length of length {T} which is larger than the max_seq_len, block size of {B}"
@@ -128,7 +154,11 @@ class NanoGPT(nn.Module):
         # forward the final layernorm and the classifier
         x = self.transformer.ln_f(x)
         logits = self.lm_head(x)  # (B, T, vocab_size)
-        return logits
+        loss = None
+        if targets is not None:
+            # flatten to 2D -> (B*T, vocab_size)
+            loss = F.cross_entropy(logits.view(-1, logits.size(-1)), targets.view(-1))
+        return logits, loss
 
 
     " load params from huggingface transformers "
@@ -179,35 +209,88 @@ class NanoGPT(nn.Module):
                     sd[k].copy_(sd_hf[k])
 
         return model
+
+# ------------------------------------------------------------------------------------------------------------------------
+
+" A simple data loader "
+class DataLoaderLite:
+    def __init__(self, B, T) -> None:
+        self.B = B
+        self.T = T
+
+        with open('../input.txt', 'r') as f:
+            text = f.read()
+        enc = tiktoken.get_encoding('gpt2')
+        tokens = enc.encode(text)
+        self.tokens = torch.tensor(tokens)
+        print(f'loaded {len(self.tokens)} tokens')
+        print(f'1 epoch = {len(self.tokens) // (B * T)} batches')
+
+        # state
+        self.current_position = 0
+    
+    def next_batch(self):
+        B, T = self.B, self.T
+        buf = self.tokens[self.current_position : B * T + self.current_position + 1]
+        x = (buf[:-1]).view(B, T)  # inputs
+        y = (buf[1:]).view(B, T)   # targets
+        # advance the position in the tensor
+        self.current_position += B * T
+        # resets, if loading the next batch would be out of bounds
+        if self.current_position + (B * T + 1) > len(self.tokens):
+            self.current_position = 0
+        return x, y
     
 # ------------------------------------------------------------------------------------------------------------------------
-device = 'cpu'
+
 if torch.cuda.is_available():
     device = 'cuda'
 elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
     device = 'mps'
+else:
+    device = 'cpu'
+
+print(f'Device sets to: {device}')
+
+# set seeds
+torch.manual_seed(5525)
+if torch.cuda.is_available():
+    torch.cuda.manual_seed(5525)
+
+# prefix tokens
+# tokens = enc.encode('Mayday is a rock band from China,')
+# tokens = torch.tensor(tokens, dtype=torch.long)  # (token_num, )
+# tokens = tokens.unsqueeze(0).repeat(num_return_sequence, 1)  # (5, token_num)
+# x = tokens.to(device)
+
+B, T = 4, 32
+train_loader = DataLoaderLite(B, T)
 
 # model = NanoGPT.from_pretrained('gpt2')  # init with huggingface pretrained weights
 model = NanoGPT(GPTConfigs())  # random model initialization
 print('Model init succeed.')
 
-num_return_sequence = 5
-max_length = 40
-model.eval()
+# model.eval()
 model.to(device)
 
-# prefix tokens
-enc = tiktoken.get_encoding('gpt2')
-tokens = enc.encode('Mayday is a rock band from China,')
-tokens = torch.tensor(tokens, dtype=torch.long)  # (token_num, )
-tokens = tokens.unsqueeze(0).repeat(num_return_sequence, 1)  # (5, token_num)
-x = tokens.to(device)
+' optimisation '
+optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4)
+for i in range(50):
+    x, y = train_loader.next_batch()
+    x, y = x.to(device), y.to(device)
+    optimizer.zero_grad()
+    ' get the loss '
+    logits, loss = model(x, y)
+    loss.backward()
+    optimizer.step()
+    print(f'step: {i}, loss: {loss.item()}')
+
+print(f'loss = {loss}')
+import sys; sys.exit(0)
 
 " Generate "
-# set seeds
-torch.manual_seed(5525)
-# torch.cuda.manual_seed(5525)
-torch.mps.manual_seed(5525)
+# num_return_sequence = 5
+# max_length = 40
 
 while x.size(1) < max_length:
     while torch.no_grad():
