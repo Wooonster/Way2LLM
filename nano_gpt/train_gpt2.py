@@ -19,7 +19,7 @@ class MLP(nn.Module):
     def __init__(self, config):
         super().__init__()
         self.c_fc   = nn.Linear(config.n_embed, 4 * config.n_embed)
-        self.gelu   = nn.GELU(approximate='tanh')
+        self.gelu   = nn.GELU(approximate='tanh')  # nonlinearity, activation func
         self.c_proj = nn.Linear(4 * config.n_embed, config.n_embed)
     
     def forward(self, x):
@@ -35,6 +35,7 @@ class CausalSelfAttention(nn.Module):
         # K, Q, V projections for all heads, but in a batch
         self.c_attn = nn.Linear(config.n_embed, 3 * config.n_embed)
         # output projection
+        " projecting the combined information from all the heads back into the original embedding space. "
         self.c_proj = nn.Linear(config.n_embed, config.n_embed)
         # regularization
         self.n_head = config.n_head
@@ -52,7 +53,7 @@ class CausalSelfAttention(nn.Module):
         e.g. for gpt2(124M), n_head=12, head_size=64, C=n_head*head_size=768 channels in Transformer
         '''
         qkv = self.c_attn(x)
-        q, k ,v = qkv.split(self.n_embed, dim=2)
+        q, k, v = qkv.split(self.n_embed, dim=2)
         k = k.view(B, T, self.n_head, C // self.n_head).transpose(1, 2)  # (B, nh, T, hs)
         q = q.view(B, T, self.n_head, C // self.n_head).transpose(1, 2)  # (B, nh, T, hs)
         v = v.view(B, T, self.n_head, C // self.n_head).transpose(1, 2)  # (B, nh, T, hs)
@@ -64,6 +65,7 @@ class CausalSelfAttention(nn.Module):
         att = F.softmax(att, dim=-1)
         y = att @ v  # (B, nh, T, T) x (B, nh, T, hs) -> (B, nh, T, hs)
         y = y.transpose(1, 2).contiguous().view(B, T, C)  # re-assemble all head outputs side by side
+        ' y is still of shape (B, T, config.n_embed) after re-assembling all heads '
         # output projection
         y = self.c_proj(y)
         return y
@@ -79,25 +81,32 @@ class Block(nn.Module):
     '''
     the layer norms are after the application of attention or feed forward
     and they are inside the residual stream
+
+    Layer normalization was moved to the input of each sub-block, 
+    similar to a pre-activation residual network 
     '''
     
     def forward(self, x):
         " the attentions function is where the tokens communicate, it's a aggragation function "
-        x += self.attn(self.ln_1(x))
+        x += self.attn(self.ln_1(x))  # += : residual
 
         " in the mlp, which happends every single token individually, no info being collected or exchanging "
-        x += self.mlp(self.ln_2(x))  # += : residual
+        x += self.mlp(self.ln_2(x))
         return x
 
 class NanoGPT(nn.Module):
     def __init__(self, config) -> None:
         super().__init__()
-        self.config = config
+        self.config = config  # set up configs
 
         self.transformer = nn.ModuleDict(dict(
+            # word token embedding 
             wte = nn.Embedding(config.vocab_size, config.n_embed),  # weights of token embed
+            # word positional embedding 
             wpe = nn.Embedding(config.block_size, config.n_embed),  # weights of positional embed
+            # hidden layers 
             h = nn.ModuleList([Block(config) for _ in range(config.n_layer)]),  # hidden layer
+            # an additional layer normalization was added after the final self-attention block 
             ln_f = nn.LayerNorm(config.n_embed),  # an additional final layer norm according to the paper
         ))
 
@@ -105,7 +114,7 @@ class NanoGPT(nn.Module):
         self.lm_head = nn.Linear(config.n_embed, config.vocab_size, bias=False)
 
     def forward(self, idx):
-        # idx is of shape (B, T)
+        # idx: token index, is of shape (B, T), B: batch_size, T: sequence_length
         B, T = idx.size()
         assert T <= self.config.block_size, f"Cannot forward sequence length of length {T} which is larger than the max_seq_len, block size of {B}"
         # forward the token and positional embedding
@@ -172,11 +181,15 @@ class NanoGPT(nn.Module):
         return model
     
 # ------------------------------------------------------------------------------------------------------------------------
-device = device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
-# device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = 'cpu'
+if torch.cuda.is_available():
+    device = 'cuda'
+elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+    device = 'mps'
 
-model = NanoGPT.from_pretrained('gpt2')
-print('worked')
+# model = NanoGPT.from_pretrained('gpt2')  # init with huggingface pretrained weights
+model = NanoGPT(GPTConfigs())  # random model initialization
+print('Model init succeed.')
 
 num_return_sequence = 5
 max_length = 40
