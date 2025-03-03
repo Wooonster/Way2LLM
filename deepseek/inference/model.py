@@ -514,4 +514,124 @@ class MLA(nn.Module):
 
 
 class MLP(nn.Module):
+    """
+    Multi-Layer Perceptron used as a feed-forward layer
+
+    attributes:
+        w1: linear layer for input-to-hiddden
+        w2: linear layer for hidden-to-output
+        w3: additional linear for feature transformation
+    """
+    def __init__(self, dim: int, inter_dim: int):
+        """
+        initialize mlp
+
+        args:
+            dim: dimension of input/output
+            inter_dim: dimension of hidden layer
+        """
+        super().__init__()
+        self.w1 = ColumnParallelLinear(dim, inter_dim)
+        self.w2 = RowParallelLinear(inter_dim, dim)
+        self.w3 = ColumnParallelLinear(dim, inter_dim)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        """
+        Forward pass for the mlp layer
+        """
+
+        return self.w2(F.silu(self.w1(x)) * self.w3(x))
+
+class Gate(nn.Module):
+    """
+    Gating mechanism for routing inputs in a moe model.l bias term for the gate
+    """
+    def __init__(self, args: ModelArgs):
+        " init gate "
+        super().__init__()
+        self.dim = args.dim   # input feature dimension
+        self.topk = args.n_activated_experts  # number of top experts activated for each input
+        self.n_groups = args.n_expert_groups  # number of groupts for routing
+        self.topk_groups = args.n_limited_groups  # number of groups to route inputs to
+        self.score_func = args.score_func     # scoring function softmax/sigmoid
+        self.route_scale = args.route_scale   # scaling factor for routing weights
+        self.weight = nn.Parameter(torch.empty(args.n_routed_experts, args.dim))  # learnable weights for the gate
+        self.bias = nn.Parameter(torch.empty(args.n_routed_experts)) if self.dim == 7168 else None  # optional bias term for the gate
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        scores = linear(x, self.weight)
+        if self.score_func == "softmax":
+            scores = scores.softmax(dim=-1, dtype=torch.float32)
+        else:
+            scores = scores.sigmoid()
+        original_scores = scores
+
+        if self.bias is not None:
+            scores = scores + self.bias
+        if self.n_groups > 1:
+            scores = scores.view(x.size(0), self.n_groups, -1)
+            if self.bias is None:
+                group_scores = scores.amax(dim=-1)
+            else:
+                group_scores = scores.topk(2, dim=-1)[0].sum(dim=-1)
+            indices = group_scores.topk(self.topk_groups, dim=-1)[1]
+            mask = scores.new_ones(x.size(0), self.n_groups, dtype=bool).scatter_(1, indices, False)
+            scores = scores.masked_fill_(mask.unsqueeze(-1), float("-inf")).flatten(1)
+        indices = torch.topk(scores, self.topk, dim=-1)[1]
+        weigths = original_scores.gather(1, indices)
+        if self.score_func == "sigmoid":
+            weights /= weights.sum(dim=-1, keepdim=True)
+        weights *= self.route_scale
+        return weights.type_as(x), indices
+
+class Expert(nn.Module):
+    " Expert Layer " 
+    def __init__(self, dim, inter_dim):
+        super().__init__()
+        self.w1 = Linear(dim, inter_dim)
+        self.w2 = Linear(inter_dim, dim)
+        self.w3 = Linear(dim, inter_dim)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        return self.w2(F.silu(self.w1(x)) * self.w3(x))
+
+
+class MoE(nn.Module):
+    """
+    MoE module
+    """
+    def __init__(self, args: ModuleArgs):
+        super().__init__()
+        self.dim = args.dim
+        assert args.n_routed_experts % world_size == 0, f"Number of experts must be divisible by world size (world_size={world_size})"
+        self.n_routed_experts = args.n_routed_experts
+        self.n_local_experts = args.n_routed_experts // world_size
+        self.n_activated_experts = args.n_activated_experts
+        self.experts_start_idx = rank * self.n_local_experts
+        self.expert_end_idx = self.experts_start_idx + self.n_local_experts
+        self.gate = Gate(args)
+        self.experts = nn.ModuleList([
+            Expert(args.dim, args.moe_inter_dim) if self.experts_start_idx <= i <= self.experts_end_idx else None
+            for i in range(self.n_routed_experts)
+        ])
+        self.shared_experts = MLP(args.dim, args.n_shared_experts * args.moe_inter_dim)
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        shape = x.size()
+        x = x.view(-1, self.dim)
+        weights, indices = self.gate(x)
+        y = torch.zeros_like(x)
+        counts = torch.bincount(indices.flatten(), minlength=self.n_routed_experts).tolist()
+        for i in range(self.experts_start_idx, self.experts_end_idx):
+            if counts[i] == 0:
+                continue
+            expert = self.experts[i]
+            idx, top = torch.where(indices == i)
+            y[idx] += expert(x[idx]) * weights[idx, top, None]
+        z = self.shared_experts(x)
+        if world_size > 1:
+            dist.all_reduce(y)
+        return (y + z).view(shape)
+
+
     
