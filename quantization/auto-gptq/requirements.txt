@@ -1,0 +1,7 @@
+--extra-index-url https://huggingface.github.io/autogptq-index/whl/cu117/
+
+transformers
+peft
+accelerate
+optimum
+auto-gptq
