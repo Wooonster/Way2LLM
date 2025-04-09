@@ -1,0 +1,11 @@
+transformers
+datasets
+flash-attn
+torch
+deepspeed
+trl
+accelerate
+vllm
+peft
+bitsandbytes
+tqdm
