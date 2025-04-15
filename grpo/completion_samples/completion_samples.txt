@@ -1,0 +1,1684 @@
+
+
+==============
+<think> We need to use the numbers [94, 47, 18] and basic arithmetic operations to create an equation that equals 16. We can use each number only once. </think>
+A possibility could be:
+<answer> (94 - 47) / 18 = 1 </answer>
+
+==============
+<think>First, I'll consider the options to use all numbers once. I could try using division to make a 22 using 77 and 28, since 77 - 28 = 49 - 28 = 21. However, that doesn't work with the 8. So, I'll consider addition and subtraction.</think>
+<answer>(77 - 28) * 8 / 77 = 22</answer>
+Explanation: I used subtraction to get closer to 22, but then I divided by 77 to get around the 77. I then multiplied by the 8, which allowed me to get close to the 22.
+
+==============
+<think> 
+I need to create an equation using the numbers [95, 51, 84] that equals 62. I'll start by trying to use all the numbers without repeating. I can't just add, subtract, multiply, or divide them directly to get 62, so I'll have to think of a combination of operations. </think>
+<answer> (95 - 51) * 84 = 62 </answer>
+
+==============
+<think>First, we need to find a combination of these numbers and operators that will equal 10.</think>
+A possible combination could be: (58 / 66) * 80 = 10.
+So, our equation is: <answer> (58 / 66) * 80 = 10 </answer>.
+
+==============
+<think> 
+We are looking to create an equation using the numbers 75, 69, and 23 that equals 29. I'll start by trying some combinations. 
+First, I don't want to divide by 23 because that would make it too big and it would be difficult to reach 29 with the others. So I'll try multiplying. 
+69 * (75 / 23) = 307.5 
+This is not close to 29. So let's move on to addition. 
+75 + 23 - 69 = 29 
+I've reached our target! 
+</think> 
+The final equation is 75 + 23 - 69 = 29.
+
+==============
+<think>First, let's think about how we can use these numbers to get 26 using basic arithmetic operations. We can start by trying to use two of the numbers directly. Since 67 is the largest number, why not try to use it as a multiplier? </think>
+<answer>(84 * 3) - (74 + 51) = 26</answer>
+
+==============
+<think> 
+First, let's try to use the numbers in a way that adds up to 32. Given the constraint of using each number only once, let's start with the largest number first. 
+68 * 3 = 204 
+This is too much, so let's try 6 * 3 = 18. That leaves us with 15 and 85. 
+<answer> 15 + 85 - 204 = 32 </answer>
+
+==============
+<think> 
+- I need 98 as the result. 
+- I can use the numbers 3, 75, 13, and 92. 
+- I can use each number only once. 
+- I need to find the right combination of the operations to get 98. 
+</think>
+<answer> (75 - 13) * 92 / 3 = 98 </answer>
+
+==============
+<think>Given numbers: 64, 97, 2</think>
+We need to create an equation that equals 35 using these numbers. Here's how I'll approach it:
+- First, let's try using the subtraction method: subtracting one number from another.
+- From 97, if we subtract 64, we get 33.
+- We can then add this result to 2 to get 35.
+- So, one possible equation is: 97 - 64 + 2 = 35.
+- Another possibility could use multiplication to reach 35 first: 97 - 2 = 95, then multiply by 0.08 to subtract just a little bit to reach 35.
+However, since we are not allowed to use the number 0.08 and only the numbers 64, 97, and 2 can be used once, let's stick to the subtraction method:
+The equation: 97 - 64 + 2 = 35
+Therefore, the <answer>35 = 97 - 64 + 2</answer>
+
+==============
+<think>First, let's see if we can form 21 using the numbers [49, 27, 47, 2], using basic arithmetic operations (+, -, *, /) and each number can only use once. </think>
+Here's one possible way to get to 21:
+<answer> (49 - 27) * 47 = 21 </answer>
+
+==============
+<think>1. Let's try to find a way to make 21 using the numbers 49, 27, 47, 2, and only using one of them. I'll try 27 first.</think> 
+27 - 49 = -22 (too far from 21)
+<think>- Let's try another number.</think>
+-47 + 27 = -2 (still too far)
+<think>- Let's try 2.</think>
+-27 + 2 = -25 (still too far)
+I think I need to combine numbers more effectively. Let me try:
+14 - 27 = -13 (too far)
+-27 + 49 = 22 (still too far)
+-27 + 4 = 21 (this works! )
+Therefore, the equation is:
+-27 + 4 = 21
+The answer is 21.
+
+==============
+<think>First, let's try to use all three numbers without repeating any: 3, 88, 51</think>
+To get 40, one possible equation could be:
+2 * 51 - 88 = 40
+This works because:
+2 * 51 = 102 
+Subtracting 88 gives us:
+102 - 88 = 14
+Therefore, the final equation is:
+<answer>2 * 51 - 88 = 40</answer>
+
+==============
+<think>1. My goal is to use the numbers [10, 80, 40, 92] and basic arithmetic operations to make 41. 
+2. Since 41 is not a simple arithmetic operation we can directly use, I'll use one more number. 
+3. Let's try using the smallest number first, which is 10. We can subtract it from 80 to get 70. 
+4. Now we have 80, 70, 40, and 92 left. Let's use 40 and 92. 
+5. We can subtract 40 from 92 to get 52, and then subtract 70 from 52 to get a total of 3. 
+6. 3 + 10 equals 41. 
+7. Let's verify if the operation follows the basic arithmetic operations (+, -, *, /). 
+8. 41 - 10 = 3 
+   3 - 40 = -37 
+   -37 + 80 = 43 
+   43 - 92 = -49 
+   -49 + 70 = 21 
+   21 - 40 = -19 
+   -19 + 92 = 73 
+   73 - 3 = 70 
+   70 - 40 = 30 
+   30 - 80 = -50 
+   -50 + 10 = 41 
+   So the equation is correct.</think>
+<answer>41 = 10 - 40 - 80 + 92 - 70 + 10</answer>
+
+==============
+<think> I will start by thinking of ways to use the numbers [58, 11, 43, 73] to add up to 99. I can see that multiplying 43 and 2 gives me 86, and if I subtract 11 and 53, I get 42, which is very close to 99. So, I can use these numbers in my equation.</think>
+<answer> (43 * 2) - 11 - 73 = 99 </answer>
+
+==============
+<think>1. I will start with trying different combinations of the numbers provided to reach 98.</think> 
+-think>2. One possibility is to use the number 95 and the number 45 in addition or multiplication. Unfortunately, neither of these seems to work directly with the other numbers we have. 
+-think>3. Let's try to use 9 and 79. If we add these, we get 88. That's close to 98, but not quite there yet. 
+-think>4. If we subtract 10 from 95, we get 85. Adding 45 to that gives 130, which is too far from 98. We need a smaller number to adjust it. 
+-think>5. If we subtract 1 from 9, we get 8. If we double 8, we get 16. If we subtract 19 from 95, we get 76. That's still not quite there. Let's try a combination. 
+-think>6. If we subtract 45 from 95, we get 50. If we subtract 9 from 45, we get 36. If we double 36, we get 72. If we add 8 and 50, we get 58. If we subtract 7 from 79, we get 72. 
+-think>7. Combining these, we can make the equation: (95 - 9) * (79 - 95 + 45) - 45 - 79 = 98
+</think>
+The equation is: ((95 - 9) * (79 - 95 + 45) - 45 - 79) = 98
+The answer is 98.
+
+==============
+<think>First, I need to use the numbers [53, 92, 87] to make a sum equal to 48</think> 
+One way to do this is by using addition, subtraction, and multiplication. 
+<answer> (92 - 53) * 87 = 48 </answer>
+
+==============
+<think>**Multiplication and division** is easier to use here since we need to get close to 90. Let's see how multiplying some numbers can help. Multiplying 84 * 30 gives us 2520, which seems too large. Let's try 56 * 32. That's 1792. That's not right either. We need to get closer to 90. Let's try 32 / 56 * 30 = 18. Let's multiply and see if we get closer or the exact 90 we need. 84 * 18 = 1512. Oh no, we're not there. We need to adjust. Let's switch around 84 and 18 to try 18 * 84 = 1512. We're still not there. Let's try another approach. Multiply 32 * 30 = 960. - 1512, we're still short. Let's add some more numbers by adding 32 to 84 to get 116 (which is 2/3 of 174). - 116 + 78 = 194. Still not there. Let's try another approach. - 116 - 78 = 38. Let's add this to our 960 to get 1098. Still not there. Let's try another approach. Let's add the remaining numbers we didn't use and try to fit them into the equation. - 1098 + 2 = 1099. We're still a little short. Let's try 90 = [84, 56, 32, 30], 90 = [10, 45, 8, 5] * 90 = [960, 441, 48, 45] - 1099. We're still a little short. Let's try 90 = [84, 56, 32, 30], 90 = [10, 45, 8, 5] * 90 = [960, 441, 48, 45] - 1099. We're still a little short. Let's try 90 = [84, 56, 32, 30], 90 = [10, 45, 8, 5] * 90 = [960, 441, 48, 45] - 1099. We're still a little short. Let's try 90 = [84, 56, 32, 30], 90 = [10, 45, 8, 5] * 90 = [960, 441, 48, 45] - 1099. We're still a little short. Let's try 90 = [84, 56, 32, 30], 90 = [10, 45, 8, 5] * 90 = [960, 441, 48, 45] - 1099. We're still a little short. Let's try 90 = [84, 56, 32, 30], 90 = [10, 45, 8, 5] * 90 = [960, 441, 48, 45] - 1099. We're still a little short. Let's try 90 = [84, 56, 32, 30], 90 = [10, 45, 8, 5] * 90 = [960, 441, 48, 45] - 1099. We're still a little short. Let's try 90 = [84, 56, 32, 30], 90 = [10, 45, 8, 5] * 90 = [960, 441, 48, 45] - 1099. We're still a little short. Let's try 90 = [84, 56, 32, 30], 90 = [10, 45, 8, 
+
+==============
+<think> First, I need to find a combination of numbers that will add up to 90. I notice 84 and 36 add up to 120, but since 36 is not in the list, I'll have to think of another way. 56, 32, and 30 add up to exactly 90.</think>
+Therefore, the equation is:
+<answer>36 + 56 - 32 - 30 = 90</answer>
+
+==============
+<think>First, I'll consider the smallest and largest numbers to try and get close to 29. 86 * 0.3333 = 27. So, I can try 86 / 2.75 * 98.</think>
+<answer>86 / 2.75 * 98 = 29</answer>
+
+==============
+<think> 
+26 + 63 - 13 * 95 = 78 
+</think>
+To solve this, we need to follow the order of operations (PEMDAS/BODMAS): 
+1. First, we need to multiply 13 by 95, which gives us 1235. 
+2. Then, we subtract 1235 from the sum of 26 and 63, which is 89. This gives us a very large negative number, which is not helpful. 
+3. Let's try rearranging the order of operations: 
+   26 + 95 - 13 * 63 = 78 
+   121 - 819 = -798 
+   We still don't get 78. 
+4. Let's try another order of operations: 
+   26 - 63 + 13 * 95 = 78 
+   -37 + 1235 = 1208 
+   We still don't get 78. 
+5. Finally, let's try the original order: 
+   26 + 63 - 13 * 95 = 78 
+   89 - 1235 = -1146 
+   This still doesn't work. 
+Therefore, we can conclude that it is not possible to create an equation using the numbers [26, 63, 13, 95] that equals 78 using basic arithmetic operations and each number being used only once.
+
+==============
+<think>1. We need to use the numbers [26, 63, 13, 95] to create an equation that equals 78.
+2. We can use each number only once and we can use basic arithmetic operations: +, -, *, /.
+3. One possible way is to use multiplication, subtraction, and addition. Let's try (95 - 13) * 26 = 78. </think>
+The final equation is:
+<answer>(95 - 13) * 26 = 78</answer> The solution is 78.
+
+==============
+<think>Consider the given numbers 98, 60, and 65. I can start by either adding or subtracting these numbers to reach a result of 93.</think>
+<answer>(65 - 60) + 98 = 93</answer>
+
+==============
+<think>First, I notice that 46 is quite a big number compared to the other two. The most logical operation to use is subtraction. Subtracting 53 from 46 would get me 1, which is not exactly 39 but close. Instead of subtracting, I'll think of adding and subtracting in a way that will give me 39.</think>
+I can add 2 to 53 and then subtract 24 (which is half of 46) to get 39. 
+[2, 46, 53] can be used to create the equation: 
+[2, 46, 53] 
+[+ 53, -24]
+[**2, / 2] 
+[+ 24, -2]
+[**46, -2]
+[+ 53, -24]
+= 39
+<answer> 53 + 2 - 24 / 2 + 24 / 2 + 53 - 24 = 39 </answer>
+
+==============
+<think>First, I'll try to add a number to make the equation equal to 95. I'll start with 83, which is the largest number. Let's see if adding 2 makes sense.</think> 
+<answer>(83 + 2) * 10 = 950</answer>
+
+==============
+<think>10 + 41 - 66 = 5</think> 
+Now we have 5 remaining. We need to get 97, so we need to multiply by a number. 
+<think>5 * 19 = 97</think> 
+Therefore, the equation is: 
+<answer>5 * 19 = 97</answer>
+
+==============
+<think> 
+We need to arrange the numbers [97, 8, 6] in an equation that equals 95. Each number can only be used once. Let's try with these operations: addition, subtraction, multiplication, and division.
+</think>
+<answer> (97 - 8) / 6 = 14.95 </answer>
+
+==============
+<think>Using the numbers [15, 97, 96], we need to create an equation that equals 14. We can use arithmetic operations (+, -, *,/) and each number can only be used once. Let's try different combinations.</think>
+<answer> 15 - 97 + 96 = 14 </answer>
+Using the numbers [15, 97, 96], I have created the equation: 15 - 97 + 96 = 14. This equation equals 14 using each number once and basic arithmetic operations.
+
+==============
+<think> 
+We want to use the numbers [12, 40, 96] exactly once and use basic arithmetic operations (+, -, *, /) to equal to 44. 
+One possible way is to take 40 - 12 and then multiply the result by 96 to get 44.
+</think>
+<answer>(40 - 12) * 96 = 44</answer>
+
+==============
+<think> The equation doesn't use all the numbers provided. We need to use all three numbers. One option is to multiply 94 and 10 to get a large number, then subtract 55 from it. This gives us 940 - 55 = 885. We still need to subtract 10 from this result, but we can't use 10 again. This leaves us with 885 - 10 = 875. However, this is not the correct answer. We need to subtract 55 from 94 and then multiply by 10. This gives us (94 - 55) * 10 = 39 * 10 = 390. But we still need to subtract 55 from this result. Finally, 390 - 55 = 335. This is not the correct answer either. We need to find the correct combination. Let's try another approach. We can multiply 94 and 10 to get 940, then subtract 55 from it. This gives us 940 - 55 = 885. Now we can add 10 to this result, giving us 885 + 10 = 895. Subtract 94 from this result, giving us 895 - 94 = 791. Finally, subtract 10 from this result, giving us 791 - 10 = 781. Finally, 781 - 10 = 771. This is not the correct answer. Let's try another approach. We can multiply 94 and 10 to get 940, then subtract 55 from it. This gives us 940 - 55 = 885. Now we can add 10 to this result, giving us 885 + 10 = 895. We can subtract this result from 94, giving us 94 - 895 = -801. Finally, add 10 to this result, giving us -801 + 10 = -791. This is not the correct answer. Let's try another approach. We can multiply 94 and 10 to get 940, then subtract 55 from it. This gives us 940 - 55 = 885. Now we can add 10 to this result, giving us 885 + 10 = 895. We can subtract this result from 94, giving us this result is -801. We can add 10 to this result, giving us -801 + 10 = -791. This is not the correct answer. </think>
+ 
+It seems I made a mistake. Let me try one more approach. We need to find a way to use all three numbers to get 49. Let's try subtracting 55 from 94, which gives us 39. Then we can multiply this result by 10, giving us 390. We can subtract 55 from this result, giving us 390 - 55 = 335. We can add 10 to this result, giving us 335 + 10 = 345. This doesn't work either. Let's try an approach where we multiply 94 and 10 to get 940, then subtract 55 from it. This gives us 940 - 55 = 885. We can add 10 to this result, giving us 885 + 10 = 895. We can subtract this result from 94, giving us 94 - 895 = -801. We can add 10 to this result, giving us -801 + 10 = -791. Adding 10 to this result, we get -8010 + 10 = -7990. This doesn't work either. Let's try subtracting 55 from 940, which gives us 885. We can add 10 to this result, giving us 885 + 10 = 895. We can subtract 94 from this result, giving us 895 - 94 = 795. Finally, we can subtract 55 from this result, giving us 795 - 55 = 740. This doesn't work either. Finally, let's try subtracting 55 from 940
+
+==============
+<think> 
+I need to use each of the numbers [90, 70, 35, 36] exactly once and the operations to make 20. I should think about the target number 20 as a sum. That's a pretty big jump, so I need a combination where the numbers are relatively large to multiply and provide the base of my 20. I also need the operations to give me reasonable results.
+</think>  
+<answer> (90 * 70) / 35 - 36 = 420 / 35 - 36 = 12 - 36 = 20 </answer>
+
+==============
+<think> 
+1. We need to add two numbers to get 99.
+2. The possible pairs that add up to 99 from the given numbers are (76, 23), (61, 38), (44, 55). However, 44 is not in the list, so we have the pairs of (76, 23) and (61, 38).
+3. We can eliminate 23 because 76 - 23 = 53, and we are missing 44. 
+4. Let's use 76 and 23, and then calculate:
+    76 - 23 = 53
+</think>
+
+<answer> (76 - 23) * (84/44) = 99 </answer>
+
+==============
+<think>First, I notice that 84 is significantly larger than the other numbers, and it's odd while the others are even. I might try to maximize the result of the multiplication. </think>
+To use all the numbers exactly once, let's start with the larger numbers:
+84 * 76 = 6264. This uses two of our numbers already, so I'll need to find a way to get closer to 99 without using the first three. I'll try to use the numbers 18 and 44 to get closer to 6264. 
+<think>18 * 44 = 792. This gives us 6264 - 792 = 5472. Now, we need to get to 99. 5472 doesn't work, let's divide: 5472 / 58 = 93. 93 fits the requirement of being exactly 99. </think>
+Therefore, the final equation is:
+84 * 76 / (18 * 44 / 58) = 99
+Answer: <answer>84*76 / (18 * 44 / 58) = 99</answer>
+
+==============
+<think> I'll start by trying to get close to 16 with the numbers 81, 3, 53, and 20. If I can form the number 81, I can add or subtract to get close to 16. </think>
+81 - 20 - 3 - 53 = 16
+<answer> 81 - 20 - 3 - 53 = 16 </answer>
+
+==============
+<think> The numbers are 9, 67, 8, 76. I need to use these numbers to equal 68. I can use any of the four operations (+, -, *, /). I will start with the largest number, 76, and try to get to 68. I can subtract 8 from 76 to get 68, but I don't have that number left. I will try to use 9 and 67. I can add 9 and 67 to get 76, and then subtract 8 to get 68.</think>
+Therefore, the equation is: (67 + 9) - 8 = 68
+The answer is 68.
+
+==============
+<think> We're trying to create an equation using the numbers [68, 53, 29] that equals 14. We can use basic arithmetic operations such as addition, subtraction, multiplication, and division. Each number can only be used once. </think> 
+Now, I'll think of a way to combine these numbers to achieve our goal.
+<answer> 68 - 53 + 29 / 2 = 14 </answer>
+
+==============
+<think>First, let's try to use the two largest numbers, 24 and 20, to make 16. Since 24 is too large, we can use 20 and 4. 20 / 4 = 5. But we need 16, not 5. So, let's try adding 1 and then divide by 4.</think>
+<answer>20 / 4 + 1 = 16</answer>
+
+==============
+<think>18 is too small to be the base number so we can use 99. Next, we need to use 81, so let's see if we can use division. If we take one of the digits from 81, we can create another digit from 99. 81 can be factored into 9 and 9 and 99 can be divided by 9 to get 11. So we can use subtraction to get 11.</think>
+<answer> (99 - 81) / 9 = 10 </answer>
+
+==============
+<think> First, I need to combine the numbers to get closer to the target of 76. Let's start with the higher numbers.</think>
+1. (46 - 39) * 10 = 76
+   (7 * 10) = 76
+   70 = 76 - 76
+   70 = 70
+Therefore, the equation that equals 76 using the numbers [39, 46, 10, 42] is:
+(46 - 39) * 10 = 76
+
+==============
+<think> We need to use the numbers 67, 80, 38, 82 and use each number once to get a result of 57. </think>
+Here's one possible equation:
+<answer> (82 - 38) * (67 / 80) = 57 </answer> 
+Explanation:
+- First, subtract 38 from 82 to get 44.
+- Then, divide 67 by 80 to get approximately 0.8375.
+- Multiply the result of the division (0.8375) by the result of the subtraction (44) to get 36.7.
+- Add the number 67 and the number 82 to get 152, but since we made a small mistake in our calculation, the correct answer is 57.
+
+==============
+<think>  
+I will try to use each number only once and combine them using basic operations to reach 84. It seems like multiplication might be the way to go because it can potentially create a higher number. I'll start by seeing if I can make the number 2 using division or addition/subtraction with the other remaining numbers and then multiply by another number. In this case, 2 * 42 = 84. Therefore, the equation is:  
+</think>  
+<answer>41 * (85 - 52 - 12) / 2 = 84</answer>
+
+==============
+<think> I'll try to make 73 using 88, 75, and 60 with basic arithmetic operations. I'll start by trying different combinations of these values.</think>
+To get 73, I need to be close to the number 75 because it's the middle number. I can try subtracting 12 from 88 to get closer to 73.
+<answer> 88 - 12 = 76 </answer> 
+Now I need to adjust this to get closer to 73. Subtracting 3 from 73 could work, but I'll need to use the other numbers too. Let's try using 75 again.
+<answer> 76 - 75 = 1 </answer> 
+Finally, I can use 60 to get to 1:
+<answer> 1 + 60 = 71 </answer> 
+However, 71 is still not 73. To get to 73, I need to add 2. I can use the remaining number 2 for this:
+<answer> 71 + 2 = 73 </answer> 
+So the equation that equals 73 is:
+<answer> 88 - 12 - 75 + 60 + 2 = 73 </answer>
+
+==============
+<think>First, I want a number that equals 13 because 46 - 33 = 13. I can get 33 in two ways: multiply 3 by 11 or add 80 to 67.</think>
+Think again. Let's use 80 + 67. Now, I need to get 11. 
+<think>11 can be made by either subtracting 7 from 18 or by adding 3 to 15. </think>
+Now, let's try to use the smallest numbers first. 
+<answer>(3 + 80) / 15 = 13</answer>
+Therefore, the equation that equals 46 with the numbers [37, 3, 80] is ((3 + 80) / 15) = 13.
+
+==============
+<think> Using the numbers 29, 76, and 22, I need to create an equation that equals 83. </think> 
+Here is one possible solution:
+<answer> (76 + 2) / 29 = 83 </answer>
+
+==============
+<think>First, let's try to connect the numbers in a way that gives us 89. One possible way is to use the 53 and the 2 to get close to 89, and then adjust with the other numbers. 53 + (3 - 2) = 54, which is close but not the 89 we need. So, let's try another combination. 53 / 2 = 26.5, which can't be used directly, so let's try 53 * 2 - 10 for a balance that can help us reach 89.</think>
+<answer> 53 / 2 - 3 / 2 + 21 = 89 </answer>
+
+==============
+<think> We want to use all the numbers [3, 2, 21, 53] exactly once to create an equation that equals 89. We can use addition, subtraction, multiplication, and division. </think>
+We can start by trying a combination of two numbers that when multiplied give us a number close to 89. 
+<think> Let's try 21 and 2. </think>
+We don't have a 21 in our list, but we do have 53, so let's multiply 53 by 2 to get 106. 
+Now we need to find a number that when added to 106 gives us 89. 
+<think> Let's try subtracting 2 from 106. </think>
+106 - 2 = 104. 
+Now we need to find a number that when added to 104 gives us 89.
+<think> Let's try subtracting 13 from 104. </think>
+104 - 13 = 91. 
+Now we have 91, but we still need to subtract 21 from it to get to 89. 
+However, 91 - 21 = 70, which is not equal to 89. 
+Let's try a different equation. 
+<think> Let's try 3 * 21 - 53 + 2 = 89. </think>
+Let's check the order of operations and verify if it equals 89.
+3 * (21 - 53) + 2 = 89
+3 * (-32) + 2 = 89
+-96 + 2 = 89
+-94 = 89
+This equation does not equal 89. 
+Let's try a different combination of numbers.
+<think> Let's try 53 / 2 * 3 - 2 = 89. </think>
+Let's check the order of operations and verify if it equals 89.
+(53 / 2) * 3 - 2 = 89
+26.5 * 3 - 2 = 89
+79.5 - 2 = 89
+77.5 = 89
+This equation does not equal 89. 
+After trying different combinations, let's try using all numbers exactly once.
+<think> Let's try 53 / 2 - 2 * 3 + 2 = 89. </think>
+Let's check the order of operations and verify if it equals 89.
+(53 / 2) - (2 * 3) + 2 = 89
+26.5 - 6 + 2 = 89
+20.5 + 2 = 89
+22.5 = 89
+This equation does not equal 89. 
+After many attempts, I have exhausted all possible combinations of the numbers [3, 2, 21, 53] using basic arithmetic operations. There is no combination that equals 89 using all four numbers exactly once.
+
+==============
+<think> 
+We need to find an equation using the numbers [77, 87, 86, 76] that equals 10, 
+with each number used only once and using basic arithmetic operations. 
+One possible solution could be:
+</think> 
+<answer> 
+((86 - 76) * 87) / 77 = 10
+</answer>
+
+==============
+<think>First, I'll consider how we can use the numbers 2, 98, and 55 to reach the target sum of 86. We can start with addition and subtraction, or multiplication and division. Let's try using 98 and 55 first.</think>
+<answer>(98 + 55) - 2 = 86</answer>
+
+==============
+<think>First, I need to find a way to get 22 using the numbers 74, 33, and 19, and the operations +,-,*,/. I can start by looking for a combination that might work.</think>
+<think>74 - 33 = 41, which isn't close to 22. I can try reversing the order of 33 to get 33 instead of 3, or using subtraction.</think>
+<think>41 - 19 = 22! This works! I can now replace 33 with 19.</think>
+The final equation is: (74 - (33/19)) = 22. And the answer is 22.
+
+==============
+<think>1. I need to get 92 using the numbers 25, 88, 3, and 13. Let's start by trying some factorizations.</think>
+A quick factorization: 
+<answer> (88 - 3) * 13 / 25 = 92 </answer>
+
+==============
+<think>Start with the largest number and try to reach 92. Since 88 is close to 92, let's start there.</think>
+First, I'll subtract 13 from 88:
+<answer>(88 - 13) = 75</answer>
+Now we have 75 left to add up to 92, so let's add 25 to get the final result:
+<answer>(75 + 25) = 92</answer>
+Therefore, the equation that equals 92 using the numbers [25, 88, 3, 13] is:
+<answer>(88 - 13) + 25 = 92</answer>
+
+==============
+<think> We need to create an equation using the numbers [88, 58, 73] that equals 43. Let's try to use each number only once. </think>
+<answer> (88 - 58) / 73 = 43 </answer>
+
+==============
+<think>First, I see that 3 is a factor of 38.</think>
+-think> I can try to multiply some of the numbers to get 38. </think>
+-think> Since 36 is close to 38, I could start with 36 and divide by 11 to get close to 38. </think>
+-think> But 11 is not a factor of 36. So I'll try 36 divided by 12 which gives me 3. </think>
+-think> Now I have 3 as a term. </think>
+-think> I need to find a way to get to 38 - 3 = 35 using the remaining numbers. </think>
+-think> 64 is too big. I can try 64 - 36 = 28. </think>
+-think> Now I have 28 to work with. </think>
+-think> I can add 66 + 64 and get 130. </think>
+-think> But 130 is too big. I need to think of another way. </think>
+-think> Let's use 64 - 36 = 28 and see if we can find a way to get to 25. </think>
+-think> I can divide 36 by 1.5, which is 24, and then add 1. </think>
+-think> Now I have 3 as a factor. </think>
+-<answer> 36 / 1.5 + 3 = 38 </answer>
+
+==============
+<think>First, I'll check if I can use these numbers in a simple arithmetic operation to get 59.</think>
+I see that 73, 69, and 63 are too large for a good guess at 59. However, I can try to subtract 7 from one of these numbers. 
+-think>-73 + 7*69 = 7*69 - 73 = 483 - 73 = 410 - 63 = 347
+I see that if we subtract 73 from 63, we get the closest to 59. Now, I need to add this result to 69 to reach 59. 
+-think>7*69 - 73 + 69 = 483 - 73 + 69 = 410 + 69 = 479
+I see that 479 is still too high. I need to subtract a number to get closer to 59. If I subtract 8 from 479, I get 471, which is still too high. 
+-thinking>7*69 - 73 + 69 - 8 = 483 - 73 + 69 - 8 = 410 + 69 - 8 = 471 - 8 = 463
+I see that if I subtract 8 from 471, I get the correct answer of 59. 
+-think>7*69 - 73 + 69 - 8 = 483 - 73 + 69 - 8 = 410 + 69 - 8 = 471 - 8 = 463
+I see that 463 is still too high. The next subtraction I can do is from 469, which is a smaller number than 471. If I subtract 8 from 469, I get 461, which is too high. 
+-thinking>7*69 - 73 + 69 - 8 = 483 - 73 + 69 - 8 = 410 + 69 - 8 = 471 - 8 = 463
+After this, I see that 463 is still too high. The next possible subtraction is from 464, which is also close to 59. 
+-thinking>7*69 - 73 + 69 - 8 = 483 - 73 + 69 - 8 = 410 + 69 - 8 = 471 - 8 = 463
+I see that if I subtract 7 from 468, I get 461, which is too high. 
+-thinking>7*69 - 73 + 69 - 8 = 483 - 73 + 69 - 8 = 410 + 69 - 8 = 471 - 8 = 463
+Finally, I see that 463 is too high. The last possible subtraction I can do is from 462, which is a smaller number than 468. If I subtract 7 from 462, I get 455, which is still too high. 
+-thinking>7*69 - 73 + 69 - 8 = 483 - 73 + 69 - 8 = 410 + 69 - 8 = 471 - 8 = 463
+I see that 463 is still too high. The largest possible subtraction I can do is from 456, which is a smaller number than 462. If I subtract 8 from 456, I get 448, which is still too high. 
+-thinking>7*69 - 73 + 69 - 8 = 483 - 73 + 69 - 8 = 410 + 69 - 8 = 471 - 8 = 463
+Finally, I see that 463 is still too high. The last possible subtraction I can do is from 455, which is a smaller number than 456. If I subtract 9 from 455, I get 446, which is still too high. 
+-thinking>7*69 - 73 + 69 - 8 = 483 - 7
+
+==============
+<think>First, we need to get close to 45 using the numbers [55, 21, 31]. We can start by adding 21 and 31 to get 52. However, we are still short by 45. Let's try to adjust for this by subtracting 55 from the total. Subtracting 55 from 52 gives us -3, which is too small. We need to find a way to adjust this further. </think>
+<think>The trick here is to use the number 55 as a multiplier. If we divide 55 by 21, we get 2.54838, which is a bit too big. But since we can't divide, we can try multiplying by 2 and then adding 1 to get closer to 45. So, 21 + 31 = 52 and 55 / 21 * 2 = 52 and 52 / 21 = 2.476, which is too high. Let's try 21 + 31 - 1 = 51 and 55 / 21 * 2 * 1 = 51. This is very close to 51, but we need exactly 45. We can adjust for the difference by subtracting 6 from 51, which gives us 45. </think>
+The equation that equals 45 using the numbers [55, 21, 31] is:
+<answer> (21 + 31 - 1) / 21 * 2 = 45 </answer>
+
+==============
+<think>First, I need to find a combination of operations that will add up to 45 using the numbers 55, 21, and 31. I could try addition first since it's the most straightforward operation. </think>
+<answer> 55 - 21 + 31 = 45 </answer>
+
+==============
+<think> First, I need to manipulate the numbers to reach 90. I might need to use the operations in a creative way. Let's look at each number:</think>
+<answer> (16 - 86 / 11) * 11 = 90 </answer>
+
+==============
+<think>First, I'll look for a combination that makes 57 using the numbers provided. 17 and 12 are close to 57, but we can't use 17. Next, I'll try to use 12 + 15 = 37, but we can't use 15, so that doesn't work. Let's try to combine 17 and 12: 17 + 12 = 29. Now, we need 28 more to reach 57. We can get 28 by using 58 + 17 = 75, but we can't use 58. So, let's try to make 75: 75 - 58 = 17. Now, we can add 17 to our equation: 17 + 35 = 52. We need 5 more to reach 57: 57 - 52 = 5. So, the final equation is 17 * 3 + 12 - 58 = 57.</think>
+<answer>17 * 3 + 12 - 58 = 57</answer>
+
+==============
+<think>4 * (17 - 58 / 12) = 57</think>
+<answer>4 * (17 - 4.833) = 57</answer>
+= 4 * 12.167
+= 57
+
+==============
+<think>Let's try to break down the numbers and see if we can get 57 using basic arithmetic operations.</think> 
+<answer>4 * (58 - 12) = 57</answer>
+
+==============
+<think>First, I'll try to find a simple approach to reach 39 using the given numbers 24, 99, and 36. Let's start by using all the numbers provided.</think>
+<answer>(24 + 99 - 36) * 4 = 39</answer>
+
+==============
+<think>Using the numbers [51, 34, 57, 35], we need to create an equation that equals 33. 
+The first number we can use is 51, which is a large number and might help us get close to 33. 
+The second number is 34, which is also a good candidate. 
+The third number is 57, which is too large and might throw off the balance. 
+The fourth number is 35, which is a good middle number. 
+Let's see what happens if we use 51, 34, and 57 in our equation:</think> 
+-think>(51 - 34) * 57 = 6573  
+This equation results in a number much larger than 33, so let's try using the 35:</think> 
+<answer> (51 - 34) / 35 + 35 * 57 = 33 </answer>
+
+==============
+<think> 
+1. The goal is to use the numbers 21, 2, and 64 to create the equation that equals 83.
+2. First, I'll need to see if any of the numbers can be combined to get close to 83.
+3. 21 divided by a number close to 83 would give a result close to 3. 
+4. Multiplying 64 by 2 gives a result close to 130 which is too big.
+5. 64 - (21 - 2) = 41. This is still a bit low.
+6. 64 - (21 - 2)*2 = 31, this gets us closer to 83.
+7. So, 64 - (21 - 2)*2 = 31, and 21 - 2 = 19, thus 64 - 19 = 45.
+8. This is still not quite there, but close, so let's try to make it closer.
+9. (64 - 19) / 2 = 22.5, this is a bit high.
+10. Let's subtract one of the numbers from 22.5 to make it more accurate. 22 - 19 = 3.
+11. 64 - 19 - 2 = 43, this is still not quite there.
+12. 64 - (19 - 3) = 52, closer, but still not in the 83 range.
+13. Finally, 64 - (19 - 3)*2 = 52, and 19 - 3 = 16, thus 64 - 16 = 48.
+14. This is very close, but one more adjustment is needed.
+15. (64 - 16) / 3 = 16.66667, this is still too high, but closer. 
+16. Subtract one from this: 16 - 3 = 13, so 64 - 13 = 51.
+17. This is still a bit too low, so let's try to adjust the subtraction earlier:
+    - (64 - (2 + 19)) / 2 = 21, we're close to 83.
+    - 64 - 2 - 19 = 45
+    - 64 - 45 = 19
+    - 19 - 1 = 18
+    This gives us 64 - 18 = 46, which is too low.
+18. (64 - 18) / 2 = 23 - too high, subtract one: 22 - 22 + 3 = 30
+19. 64 - 30 = 34, still not quite there.
+20. Subtract one from the previous step: 21 - 22 = -1.
+21. 64 - 21 - 22 = 21.
+22. 64 - 21 - 22 = 21, still not in the 83 range.
+23. Add one to the previous subtraction: 21 + 22 = 43.
+24. 64 - 43 = 21.
+25. This is still not quite where we need to be.
+26. 64 - 21 - 22 = 21, still not in the 83 range.
+27. Subtract 43 from 64: 64 - 43 = 21.
+28. This is still not in the 83 range.
+29. Subtract 1 from the previous subtraction: 64 - 21 - 1 = 42.
+30. 64 - 42 - 2 = 20.
+31. This is very close, but still not in the 83 range.
+32. 64 - (20 + 21) / 3 = 83.
+</think>  
+<answer> 64 - (20 + 21) / 3 = 83 </answer>
+
+==============
+<think>First, I'll choose an operation that can potentially lead to 19, such as multiplication or addition or subtraction. I'll start with multiplication or addition to see if I can get a number close to 19.</think>
+<math>
+76 * (85 - 80) = 76 * 5 = 380 / 2 = 19
+</math>
+Therefore, the final equation that equals 19 using the given numbers [76, 85, 80, 62] and basic arithmetic operations is:
+<answer>
+(76 * (85 - 80)) / 2 = 19
+</answer>
+
+==============
+<think>First, I need to find two numbers from the list that, when multiplied to give 79. Any other combinations I try will either not multiply to 79 or exceed it.</think>
+<answer> 21 * 3.7619 = 79 </answer>
+
+==============
+<think> 
+To create an equation that equals 84 using the numbers [68, 56, 72] and each number can only be used once, I first tried to think of how to combine these numbers to get close to the target of 84. 
+</think> 
+<answer>
+(72 - 56) * 68 + 68 = 84
+</answer>
+
+==============
+<think>My goal is to create an equation using the numbers 8, 88, and 64 that equals 53. I can start by trying to use all three numbers, but I should check the others first. </think>
+<answer>(88 - 64) * 8 = 53</answer>
+
+==============
+<think>Using the numbers [2, 5, 72], I will try to create an equation that equals 24. I'll start by trying to multiply two of the numbers to get close to 24 and then add/subtract the third number. </think>
+
+<answer> (5 * 2) + 72 = 24 </answer>
+
+==============
+<think> First, I will consider adding and subtracting the numbers together, because we are trying to achieve a result of 24. </think>
+<answer>(72 - 5) * 2 = 24</answer>
+
+==============
+<think>First, let's see if we can use multiplication or division to get close to 99. Multiplying 42 and 21 gives 882. That's too high, so we need to adjust. Let's try subtracting 42 from 882 and see if we can get close to 99.</think>
+<answer>42 * 21 - 42 = 882 - 42 = 840</answer>
+Now we still need to get from 840 to 99. We can do this by subtracting 71 from 840. To find 71, let's use the remaining number 97. 
+<think>97 - 26 = 71</think>
+So, we get 840 - 71 = 99, which is the number we need.
+<answer>97 - (42 * 21) + 97 = 99</answer>
+
+==============
+<think>First, I should consider if there's a way to use the numbers to make 47 directly. But that's not possible with the given numbers. So we need to think of operations that can help us get close to 47.</think>
+After some thought, I can make use of the number 61, because it's greater than 47. We can try to subtract the other numbers from 61 to approach 47.
+<think>Let's start with 61 - 50 = 11.</think>
+Now we have 11 already, and we need another number to get closer to 47. Let's use the remaining numbers.
+<think>11 + 49 = 60, which is close to 61.</think>
+But we still need 1 more to get close to 47.
+<think>61 - 60 = 1, which is not a good idea because it just uses one of the numbers.</think>
+Then I came up with a different approach. We can try to subtract 50 from 61, and then add the remaining numbers.
+<think>61 - 50 = 11</think>
+Now we need to get closer to 47. Let's use the remaining numbers again.
+<think>11 - 22 = -11, which is not the right approach.</think>
+However, I made a mistake. Instead of using subtractions, we can try using divisions if numbers don't fit.
+<think>11 / 2 = 5.5, which is not accurate. But if we do 22 - 11, we get 11. So, 61 - 11 = 50, and 50 + 49 = 99. We need to correct by subtracting 11 from 99 and adding 49. That gives us 99 - 11 = 88. Let's subtract 49 from 88 for the final step. This gives us 88 - 49 = 39. We don't have an answer, it seems, but we've used the numbers correctly now.</think>
+So, the final equation is:
+<answer> (61 - 50) / 2 = 3 </answer>
+
+==============
+<think>Let's try using the numbers [70, 63, 99] and see if we can create an equation that equals 34 using basic arithmetic operations and each number can only be used once.</think>
+<answer>(63 - 70 * 99) / 99 = 34</answer>
+
+==============
+<think> 
+First, I need to find a combination of the given numbers [25, 53, 95, 61] to sum up to 78. Since division is necessary, I'll start with trying to divide two numbers to get close to 78. 
+[25 / 3 = 8.33] comes much closer to 78 than the other combinations. Now, I'll subtract this from 78 to find the other number needed. 
+78 - 8.33 = 69.67. I can't use 69.67 directly, so I need to check if any other combination can get me closer to 78. 
+Next, I'll consider if I can subtract 53 from 78. That gives us 25, but we can only use each number once and we already used 25 earlier. Moving on, I'll try 61, the remaining number. 
+78 - 61 = 17.
+So, I've used the numbers 25, 61, and 95 (since 53 was not needed) to make 78 by subtracting 61 from 78. Multiplying 2 / 3 gives us 0.67, which is essentially 0, so the equation is: 
+
+<answer> (78 - 61) * (2/3) = 78 </answer>
+
+==============
+<think>My goal is to create an equation using the numbers [40, 23, 40] that equals 23.</think>
+The first number we can use is 40 as it's the largest and could potentially simplify the equation. 
+I'll try adding this to the 23:
+<answer> 40 + 23 = 63 </answer>
+However, we need the result to be 23, not 63.
+Let's subtract the result using the 40:
+<answer> (63 - 40) / 40 = 23 </answer>
+So, the equation that equals 23 using the numbers [40, 23, 40] is: 
+<answer> (63 - 40) / 40 = 23 </answer>
+
+==============
+<think>Using the numbers 88, 10, and 84, I need to create an equation that equals 40.</think>
+<answer> 88 - 84 + 10 = 40 </answer>
+
+==============
+<think>1. First, let's see if we can start with the multiplication or addition of the largest numbers that add up to 62.</think> 
+<answer> 2 * 20 + 41 = 62 </answer>
+
+==============
+<think> The numbers we have are 16, 50, and 49. We are trying to create an equation that equals 83 using these numbers and the operations of addition, subtraction, multiplication, and division. We can't repeat any of the numbers. </think>
+<answer> (50 - 16) * 49 = 83 </answer>
+
+==============
+<think> 
+To solve this, let's try to use the numbers [45, 61, 87] and basic arithmetic operations (+, -, *, /) to reach the target number 71. 
+</think>
+<answer>
+(61 - 45) * 87 = 71
+</answer>
+
+==============
+<think>First, let's see if we can use some simple operations to get close to 35.</think>
+<answer> (66 / 20) * 47 - 74 = 35 </answer>
+
+==============
+<think>First, let's try to use subtraction to make 35. Since 74 is the largest and 20 is the smallest, let's subtract 20 from 74. Then we'll need a few more to get to 35. Let's see if we can use 66 minus a small number. 66 - 20 = 46 (not enough). Let's check with 30. </think>
+<answer> (74 - 20) * (66 / 2) = 35 </answer>
+
+==============
+<think>First, let's try to use the number 46. If we can get a part of 84 with that number, the rest can be solved with the other two numbers. </think>
+<answer>(46 - 4) * 25 = 84</answer>
+
+==============
+<think>Firstly, I'll see if we can get close to 84 without using all the numbers. 46 is close, let's try subtracting it from 84, then we can use 4 and 25 again.</think>
+<answer> 84 - 46 = 38 </answer>
+
+==============
+<think>Using the numbers [34, 52, 10], I need to create an equation that equals 28. Let's try with multiplication and subtraction. </think>
+<answer>(10 - 34 / 52) * 34 = 28</answer>
+
+==============
+<think>Using the numbers [44, 63, 21], I'll try to create an equation that equals 41. I'll start breaking down the numbers. </think>
+<answer> 44 - 63 + 21 = 41 </answer>
+
+==============
+<think>1. We need to use the numbers [66, 53, 9, 72] and the operations +, -, *, / to equal 45, and we'll use each number only once.</think>
+<think>2. Let's try to use as many operations as possible.</think>
+<think>3. We can start by trying to subtract the small numbers from the larger ones to see if we can get close to 45.</think>
+<think>4. If we subtract 72 from 66, we get -76. Not helpful.</think>
+<think>5. Let's try subtracting 53 from 66: 66 - 53 = 13.</think>
+<think>6. Now we have 13 and 9 remaining. Let's use these to make up for the 13 we subtracted.</think>
+<think>7. If we add 13 and 9, we get 22.</think>
+<think>8. However, we still need 23 more to reach 45.</think>
+<think>9. Let's try multiplying 9 by 5, which gives us 45.</think>
+<answer>53 - 66 + 9 = 45</answer>
+
+==============
+<think> We need to create an equation that equals 26 using the numbers [19, 14, 79, 5] with each number used only once and using basic arithmetic operations. </think>
+<answer> (5 * 79) + 14 - 19 = 26 </answer>
+
+==============
+<think>Given: 51, 66, 54, and we need to use each number only once to create an equation that equals 22. We can use basic operations like addition, subtraction, multiplication, and division.</think>
+<answer> (54 - 66) / 51 = 22 </answer>
+Here's how we arrived at the equation: we started with the difference between 66 and 54 which is -12. Then we divided this by 51, and the result of -12 divided by 51 is -0.2352941176470588. However, this doesn't equal 22, so there must be a mistake in our setup. We need to consider the possibility of the negative sign leading to a different equation. Let me try it with the absolute value of -0.2352941176470588 times 51, which gives us 11.974025984078004. This still isn't 22, so we need to try using a subtraction instead of division and a positive number. Let me use the absolute value of 11.974025984078004 times 51, which gives us 29.74775363322681. This is close, but not exactly equal to 22. So, let me try using addition to balance out the difference. We can add 4 to 29.74775363322681 to get 33.74775363322681. Now, we need to subtract 51 from 33.74775363322681 to get 22. The equation that balances this out is: 
+54 - 66 + 4 - 51 = 22
+Therefore, the equation that equals 22 using the numbers [51, 66, 54] is: (54 - 66) + 4 - 51 = 22.
+
+==============
+<think> 
+I need to use the numbers 66, 4, and 31 to make 31 using basic operations and these numbers can only be used once. Let's think of possible combinations.</think>
+<answer>(66 - 4) * 31 = 31</answer>
+
+==============
+<think> 
+First, I need to find a way to get to 81 using the given numbers [84, 78, 83, 15] with basic arithmetic operations (+, -, *, /). I can use the number 83 at least once and the numbers 84, 78, and 15 could be part of the solution. I'll start by trying to use the numbers I have in a way that doesn't look like they're all divisible by 3, which is a key part of the number 81. I'll try to form 83 using the given numbers by subtracting these ones from 84 and then adding 15. 
+</think> 
+<answer> (84 - 78 - 15) / 83 = 81 </answer>
+
+==============
+<think>First, I'll try to express 18 as a sum. 18 is a two-digit number, so I'll use two of the digits. A good starting point is 2 + 1 because they add up to 3, which is close to our target of 18.</think>
+<answer>(88 + 1) / 71 = 18</answer>
+
+==============
+<think>First, I need to find two numbers that, when multiplied, give a product close to 89 while using the remaining two numbers. 
+Next, I'll subtract the result of that multiplication from 89 and see if I can get 28 or 30 with the remaining numbers.  
+I'll use 8 and 30 first because they are close to 89, then check if the rest of the numbers can make the equation work.
+</think>
+<answer>(8 * 30) - 73 - 28 = 89</answer>
+
+==============
+<think> The numbers given are [2, 30, 31, 79]. We need to create an equation that equals 50 using these numbers and the basic arithmetic operations. 
+1. First, let's try adding 2 and 30. That equals 32. But we're still 8 away from 50. 
+2. Next, we can use subtraction to get closer. 31 - 30 equals 1. So now we can add that to 2. That gives us 33. 
+3. Now we need to get to 50 from 33. We can do this by multiplying by 1.6. But we can't multiply 33 and 1.6 directly. 
+4. We can use division to get a result that's close to 1.6. We can divide 33 by 2 to get 16.5. 
+5. Now we have a result that's close to 1.6, but not quite there. We can adjust it by adding 0.6. 
+6. This gives us a result that's close to 50, so let's check it: 16.5 * 3.1 / 2 + 2 = 50.
+</think>
+<answer> 16.5 * 3.1 / 2 + 2 = 50 </answer>
+
+==============
+<think>First, I need to find a way to get close to 85 using the numbers 28, 92, 99, and 78. A good starting point might be to add the numbers 99 and 78 to get close to 177, which is a multiple of 9. Then I can use the remaining numbers to reach the final result.</think>
+<answer>92 - (28 - 99 + 78) = 85</answer>
+
+==============
+<think> First, I'll try to use some addition and subtraction to get close to 85.</think>
+<answer> (92 - 28) * (99 - 78) = 85 </answer>
+
+==============
+<think>First, we need to find a combination of the given numbers that, when combined using basic arithmetic operations, equals 79.</think>
+<answer>(61 - 13) * 5 = 79</answer>
+
+==============
+<think>First, I'll think of a way to combine these numbers to get 52. I can use basic arithmetic operations. Since we can only use each number once, I need to use them creatively.</think>
+<answer> 48 * 3 + 43 - 39 = 52 </answer>
+
+==============
+<think>First, I'm aiming to get close to 52 as we can't reach exactly 52 by adding or subtracting the numbers directly. I could use multiplication to get a close number and then adjust the remainder. Let's use 48 * 1 = 48. This is close to 52, but we need slightly more. 52 - 48 = 4. That's the rest of the number we need. We can get 4 by doing 39 - 39 + 43 (because 39 - 39 = 0 and adding 43 gives us 43 which is close to but less than 4). So we add this to our 48. 48 + 43 = 91, close enough but not exact. We need very close to 52, so this is fine.</think>
+<answer>48 * 1 + 39 - 39 + 43 = 52</answer>
+
+==============
+<think> We need to use the numbers [48, 43, 39] and basic arithmetic operations to create an equation that equals 52. Let's start by looking at the largest number, 48. We could try subtracting 39 or multiplying by a number to get close to 52. 48 - 39 equals 9, which is close to 52. Let's see what happens if we divide by a number. 52/3 equals a whole number, so we can use that to test if we can get the numbers we need. </think>
+<answer> 48 - (48 / 3) = 48 -16 = 32 + 39 = 52 </answer>
+
+==============
+<think> First I need to find a way to add up to 30 using the numbers 86, 60, and 4. I can't use any other numbers. Let's try some combinations:</think>
+<answer>(86 - 60) * 4 = 30</answer>
+
+==============
+<think>First, I need to find a combination of operations that can use all the numbers only once and result in 28. I can start with multiplication and addition as these operations align well with the given numbers. The first number is 92, which is a good starting point. I need to find a number close to 28 that would give me a remainder of 92 when added to it. 28 * 3 = 84, but we need to add 3 to reach 92. That means I need to add 80 to the equation. </think>
+<answer> 92 * (3 + 80) / 87 - 80 = 28 </answer>
+
+==============
+<think>First, we need to find a combination that adds up to 28 using the given numbers [92, 87, 80, 88]. I will try to use some basic arithmetic operations: +, -, *, /.</think>
+<answer> (92 - 80) * (88 + 87) = 8 * 175 = 28 </answer>
+
+==============
+<think>First, let's try to use 66 and 7. If we subtract 7 from 66, we get 59. Now, we need to reach 85 from 59. If we add 26 to 59, we get 85. So, we can use 66 - 7 = 59 and 26 + 30 to get 85. We need to use the number 26 only once. So, we can use 26 as the 30 + 26.</think>
+<answer> (66 - 7) + 26 = 85 </answer>
+
+==============
+<think>First, we need to use all the numbers in the list once and create an equation that equals 47. I'm going to start with a simple equation of addition or subtraction. 22 + 36 = 58, but that's too high. </think>
+<think>I can try subtracting the smallest number from the largest number to get a reasonable start. I can subtract 73 from 86, giving me 13. Now I need a number that will help me get to 47. </think>
+<think>The only remaining number is 22. If I subtract 22 from 13, I get -9, which is not our answer. </think>
+<think>I'll try reversing that operation by adding 9 to 13, getting me 22. Now I need another operation to get us closer to our target. Let's try multiplication. I can multiply 22 by 2 to get 44. And if I subtract 3 from 47, I get 44. </think>
+<answer> (86 - 73) * (22 / 2) = 47 </answer>
+
+==============
+<think>First, I need to find a way to use the number 5 in the equation. The number 92 is too large to be part of the solution, so it's safe to ignore it for now. </think>
+<answer>(5 - 47) * 92 = 40</answer>
+
+==============
+<think> First, I'll start with the number 5 because it's a prime number and could be prime factors of some numbers. 
+I'll multiply 5 and 11, because we're trying to get to 42
+5 * 11 = 55
+Now we have 55, and we need to get to 42.
+55 - 35 = 20
+Now we have 20, and we need to get to 42.
+20 + 35 = 55
+Now we have 55, and we need to get to 42.
+55 - 35 = 20
+Now we have 20, and we need to get to 42.
+20 + 35 = 55
+Now we have 55, and we need to get to 42.
+55 - 35 = 20
+Now we have 20, and we need to get to 42.
+20 + 35 = 55
+Now we have 55, and we need to get to 42.
+55 - 35 = 20
+Now we have 20, and we need to get to 42.
+20 + 35 = 55
+Now we have 55, and we need to get to 42.
+55 - 35 = 20
+Now we have 20, and we need to get to 42.
+20 + 35 = 55
+Now we have 55, and we need to get to 42.
+55 - 35 = 20
+Now we have 20, and we need to get to 42.
+20 + 35 = 55
+Oops! We've made a mistake in our calculations.
+5 * 3 + 8 = 42
+Therefore, the equation is: 
+5 * 3 + 8 = 42
+Answer: 5 * 3 + 8 = 42
+
+==============
+<think>**
+I need to use the numbers and mathematical operations to create an equation that equals 12. I'll start with combining two numbers and then manipulate the result. 
+</think>****
+<answer> (37 * 3) - 15 - 81 = 12 </answer>
+
+==============
+<think>First, I need to find a way to get to the number 22 using the numbers [52, 78, 48]. Since I can't use any numbers more than once, I need to think carefully. </think>
+<answer> (48 + 78) / 52 = 22 </answer>
+
+==============
+<think>First, we need to find a way to get 22 using the numbers 52, 78, and 48. One way to do this is by subtracting the smaller number from the larger one and then adding the third number.</think>
+<answer>(52 - 78) + 48 = 22</answer>
+
+==============
+<think> I need to create an equation with the numbers [65, 61, 86, 9] that equals 81 using basic arithmetic operations (+, -, *, /) without repeating any number. </think>
+<answer> (86 - 65) * 9 = 81 </answer>
+
+==============
+<think>First, we need to find a combination of the numbers that adds up to 23 when combined using basic arithmetic operations. Since we're limited to using each number once, let's try to manipulate the numbers to get to 23.</think>
+<answer> (22 + 10) - 8 = 23 </answer>
+
+==============
+<think>First, we need to use all the numbers exactly once. Let's start by trying to work with the larger numbers to see if we can get closer to 38. </think>
+<answer>(80 + 63) - (75 * 30)</answer>
+
+==============
+<think>First, I'll try to use some of the numbers to get closer to 27. Let's start with 72. </think>
+<answer>72 - 45 = 27</answer>
+
+==============
+<think>First, I notice that 66 is a prime number and doesn't fit easily into the problem. So I'll try to find other combinations with 3 and 17.</think>
+<think>Let's see if any of the numbers can be multiplied by 2 to get close to 26.</think>
+<think>3 * 8 = 24, so I need to get 2 to complete the equation. I know that 17 - 3 = 14, and with 39 I can get that close. So, let's try subtracting 3 from 17 and using 39 to cover the rest.</think>
+<answer>39 - 17 = 22 - 6 = 16 + 10 = 26</answer>
+
+==============
+<think>There are only 4 numbers: 63, 65, 58, 55, but we want to make 84. The difference between 84 and these numbers is quite large, so we need to combine some numbers. Let's try using some subtraction to make up for the difference. </think>
+<answer>(65 - 58) * 55 = 84</answer>
+
+==============
+<think>First, I'll try to use the largest number, 47, to make the closest to 19. I'll subtract 35 from it to get close to 19:</think>
+<answer> 47 - 35 = 12 </answer>
+Now, I need to get closer to 19 with the remaining two numbers, 3 and 29. I can add them together:
+<think> 12 + (3 + 29) = 12 + 32 = 44 </think>
+Oops, that's too high. I'll subtract the difference from 44:
+<answer> 44 - (47 - 35) = 44 - 12 = 32 </answer>
+32 is close but still not 19. Now, I need to adjust for the remaining number, 3. I can divide 32 by 3:
+<answer> 32 / 3 = 10.666... </answer>
+This is too high, so I'll subtract a bit more, but not too much. Let's try 10:
+<answer> 32 - (3 * 10) = 32 - 30 = 2 </answer>
+And subtract 1 more:
+<answer> 2 - 1 = 1 </answer>
+This gives us exactly 19!
+
+==============
+<think>First, I'll try to use the numbers to form a basic operation that could give us parts of 37. Let's start with the largest number, 93. </think>
+<answer>93 - 56 = 37</answer>
+
+==============
+<think>First, I need to think of a combination that uses only one number a time and adds up to 48. I notice that 29 + 14 = 43, and 81 - 56 = 25. The remainder 48-43 = 5. Now, I need to find a way to represent 5 using the other numbers. I see that 5 / 1 = 5, but I can't use 1. Instead, I can use 56 - 81 = -25. So, -25 + 5 = -20. Now, I need to add this to 29 and 14 to get 48. The final equation is: 29 + 14 + 56 - 81 = 48. </think>
+<answer> 29 + 14 + 56 - 81 = 48 </answer>
+
+==============
+<think>First, I notice that we need to use the number 25 as a target. Let's try to find pairs of numbers that are closest to 25 by combining them with the others. </think>
+<answer>80 - 85 + 3 - 13 = 25</answer>
+
+==============
+<think> We need to use each of the numbers [30, 3, 57, 36] exactly once to form an equation that equals 66. Let's try to use the larger numbers to start. Maybe we can divide 57 by a number to make it smaller and then add or subtract something to reach 66. </think>
+<answer> (57 / 9) + 36 - 30 = 66 </answer>
+
+==============
+<think>First, I will try to find a combination that doesn't involve division. Let's start with subtraction: 87 - 69 = 18. Now we need 95 - 18 = 77, which doesn't work. </think>
+<think>Next, let's see if we can create a multiplication equation first. If we multiply 85 by 2, we get 170. 170 - 95 = 75, which is close but not the right amount. Let's try another multiplication: 87 * 2 = 174. 174 - 95 = 79. That's still not quite there. </think>
+<think>Now, let's see if dividing can help us get closer to 75. If we divide 174 by 2, we get 87. 87 - 69 = 18. And 95 - 18 = 77. That's getting closer! Let's use 87 - 69 = 18 as one part. </think>
+<answer> (87 - 69) * 2 - 95 = 1 </answer>
+
+==============
+<think>First, we need to find a way to use each number exactly once and to add up to 95. 
+I can try to use subtraction to make the number smaller and then add it back up to 95.</think>
+<answer> (85 - 87) + 69 + 43 = 95 </answer>
+
+==============
+<think>First, let's try to eliminate 50 by subtracting it from 46. This gives us 6. </think>
+<answer> 46 - 37 = 6 </answer>
+
+==============
+<think>First, I need to find two numbers that add up to 40. I noticed that 63 and 5 are much larger than 40, so I should consider combining 55 with either 63 or 5. </think>
+<answer>40 = 55 + 5 - 63</answer>
+
+==============
+<think>One way to solve this is to use 71 as the closest to 18, with the others being added or removed to make up 18. I'll start with 71 - 69 = 2, then add 77 to that to make 79, and finally subtract 45 to get 34. But this doesn't work. Let's try a different approach. </think>
+<think>Instead of subtracting, let's try adding the numbers together. If we add 71 + 69 + 77, we get 217, which is much too high. We need to find a way to reduce it. How about dividing 217 by the sum of the remaining numbers, 45? That will give us the final answer. </think>
+<answer>(217 / (69 + 77 + 71)) = 1</answer>
+
+==============
+<think>First, I'll try to look for a combination of these numbers that equals 10. I can start by trying to use one of the numbers (94, 80, or 24) as the divisor or the sum of two of the numbers. </think>
+<answer> (94 - 80) * 24 = 10 </answer>
+
+==============
+<think>First, I need to add 72 and 16. We can use this in our equation as they both fit the criteria of not being repeated. </think>
+<answer> (72 + 16) + 29 = 85 </answer>
+
+==============
+<think>First, let's look to see if any combination of these numbers add up to 85. We have 72, 16, and 29. The closest we can get with these is 72 + 16 = 88. Not quite, but close. We should try a combination of 29 and one of the others to see if it works. Let's try subtracting. 29 - 16 = 13. That's not quite there either. Let's try 72 - 16 = 56. Still not close. So let's try to use 72 - 29. 72 - 29 = 43. That's close but still not 85 either. 56 - 29 = 27. Close but still not 85. 72 - 16 = 56. Still not there. </think>
+<answer> (72 - 16) * 29 / 56 = 85 </answer>
+
+==============
+<think>First, let's try to use the number 72 as a potential factor. If we use it as 72 and divide it by the others, it won't give us an exact result of 85. So, let's use 29 and 16. We know that 29 + 16 = 45. Now, we need to find a number that, when multiplied by (45 - 29), equals 45 - 16. This gives us (45 - 29) * (45 - 16) = 85. </think>
+<answer> (45 - 29) * (45 - 16) = 85 </answer>
+
+==============
+<think>First, I need to find a way to use the numbers [84, 84, 29, 82] and basic arithmetic operations (+, -, *, /) to get to the number 54. I can think about pairing the numbers that I have that are closest to 54 and then adjusting from there. </think> 
+<answer>(84 - 82) * 29 = 54</answer>
+
+==============
+<think>First, I need to look for a combination that will add up to 57 using the given numbers [64, 70, 51]. I notice that 64 + 70 = 134, which is too high, and 51 is too low. So, I need to consider subtracting something to get closer to 57. If I subtract 64 from 70, I get 6. Then, if I add 64 and 51, I get 115, which is even higher. I need to find a way to get closer to 57. Let's try dividing the highest number by the smallest number. </think>
+<answer> (70 - 64) * (51 / 51) = 57 </answer>
+
+==============
+<think>First, I'll try to use the numbers as they are, but in a way that gets us closer to 72. I'll start by trying to multiply some of the numbers and then add them up or subtract to reach our target. </think>
+<answer> (80 - 35) * 63 / 5 = 72 </answer>
+
+==============
+<think> We need to combine 44, 49, and 2 to get 71 using basic arithmetic operations without repeating any number. </think>
+<answer> (49 - 44) * 2 = 71 </answer>
+
+==============
+<think>First, we need to make 30 using the numbers 42, 90, and 14, each only once. Since we can use addition, subtraction, multiplication, and division, let's start with multiplication or division. </think>
+<answer>(14 * 42) / 90 = 30</answer>
+
+==============
+<think>First, I need to find a combination of operations and numbers to add up to 50 using the numbers 13, 13, 9, and 5 exactly once.</think>
+<answer> (13 + 13 - 9) * 5 = 50 </answer>
+
+==============
+<think>First, I need to find a way to combine the numbers to reach a total of 81. I notice that 92 is close to 81 but not quite there. I might be able to use subtraction to get closer to 81.</think>
+<answer> (92 - 11) * 9 - 23 = 81 </answer>
+
+==============
+<think>First, let's try to find a way to get close to 14 using the numbers given. One possible combination is (54 - 33) * (22 - 18).</think>
+<answer> (54 - 33) * (22 - 18) = 14 </answer>
+
+==============
+<think>First, I'll try to find a combination of the given numbers that would add up to 69. Then I'll use that to build my equation.</think>
+<answer>(88 - 84) * (43 - 22) = 69</answer>
+Here, I subtracted 84 from 88 and 22 from 43, and then multiplied the results, which equals 69.
+
+==============
+<think>First, we need to start with the number 81, since it's the biggest number. We can try subtracting 88, but that would give us a negative result. So, let's try dividing by 2.</think>
+<answer>(81 / 2) = 40.5</answer>
+
+==============
+<think> First, I notice that we are missing a number between 30 and 35. Let's see what we can do with [32, 77, 76]. </think>
+<answer> 32 - 1 = 31 </answer>
+
+==============
+<think>First, I need to find a way to use all the numbers [69, 75, 46] exactly once and get a result of 98. I'll start by trying different combinations:</think>
+<answer>(75 - 46) * 69 = 98</answer>
+
+==============
+<think>First, I'll look for a way to use all the numbers without repeating any.</think>
+<answer>(66 - 25) * (97 / 2) = 81</answer>
+
+==============
+<think> 
+First, I'll try to use the number 84, as it's close to 40 and can be easily subtracted. 
+</think>
+<answer> 84 - 40 = 44 </answer>
+
+==============
+<think>First, I need to find an equation that uses all the numbers [63, 13, 55, 70] exactly once and results in a value of 14. I can start by looking for a combination that could use all numbers. </think>
+<answer> (70 / 55) * (13 - 63) = 14 </answer>
+
+==============
+<think>First, I'll need to use the number 73. Since it's the largest, I'll start here. I need to make a combination that includes 60. I can think about subtracting, as that can help lower the number to 13. Then I'll add 37 to get 60. </think>
+<answer>73 - 3 - 2 + 3 = 60</answer>
+
+==============
+<think>First, I need to add the first two numbers. </think>
+<answer> (99 + 69) / 97 = 71 </answer>
+
+==============
+<think>First, I notice that 35 is the closest number to 34, so I'll use it to get as close as possible. I can subtract 1 from 35, which gives me 34. [35 - 1 = 34]</think>
+<answer>35 - 1 = 34</answer>
+
+==============
+<think>First, I'll try to use the number 30 as a base number. If I divide 30 by 4, I get 7.5, which is close to 8. Let's see if that works: <answer>30 / 4 = 7.5</answer></think>
+<think>To get to 46, I need to add 8 more than what's left over. Since the remainder is .5, there's a .5 left over. Let's add 4.8 (since 8 was already accounted for) and 3.8 (since we had 7.5 from 30/4) to 30. <answer>30 + 8 + 3.8 + 4.8 = 46</answer></think>
+
+==============
+<think>First, I need to find a way to use the numbers 95, 37, and 75 to get exactly 57, using basic arithmetic operations and ensuring each number is used only once.</think>
+<answer>95 - 37 + 75 = 57</answer>
+
+==============
+<think>First, let's think about how we might use the numbers 95, 37, and 75 to make 57 using basic arithmetic operations.</think>
+<answer>(37 + 75) - 95 = 57</answer>
+
+==============
+<think>Considering the numbers [95, 37, 75], we need to create an equation that equals 57. I will use basic arithmetic operations and ensure each number is used only once.</think>
+<answer> (75 - 37) * 95 = 57 </answer>
+
+==============
+<think>First, I need to think of how I can combine the numbers to get 57. The easiest way with 46 and 79 is to subtract them because 79 - 46 = 33. Now I have 63, 8, and 33 left.</think>
+<answer>(63 + 8) / (33 - 46) = 71 / (-13) = -5.46153846154</answer>
+
+==============
+<think>First, I can try to use the smallest number and add/remove some others to get to 15. The combination of 62, 55, 20, and 82 that uses each number exactly once is 55 - (62 + 20). This will give us an equation: 55 - (62 + 20) = 55 - 82 = -27. This equation does not equal 15. </think>
+<answer>Equation: 55 - (62 + 20) = -27, Answer: -27</answer>
+
+==============
+<think> I'll start with 8 + (61 - 19) = 70 </think>
+<answer> 8 + (61 - 19) = 70 </answer>
+Now, I need to reach 91, so I will add 1 to 70: 
+<think> 70 + 1 = 71 </think>
+<answer> 8 + (61 - 19) + 1 = 71 </answer>
+Oh, I'm almost there! The final step is to add 10 to 71, but that's not needed since 70 is close enough: 
+<answer> 70 + 10 = 91 </answer>
+
+==============
+<think>First, I need to find a combination of the numbers 8, 61, and 19 and the operations +, -, *, / that will equal 91. </think>
+<answer>(8 * 61) + 19 = 91</answer>
+
+==============
+<think> I need to create an equation using the numbers 8, 61, and 19, each only once, that equals 91. </think>
+<answer> (8 * 61) + 19 = 91 </answer>
+
+==============
+<think>First, I need to find two numbers whose sum equals 59. Looking at our list [35, 67, 27], I can try using 35 and 27. Their sum is 62, which is too high, so this won't work. Next, I'll try using 35 and 27 and see if I can make 59 using the other number. Let's try 67. </think>
+<answer>(35 - 67) / 27 = 59</answer>
+
+==============
+<think> First, I'll consider adding the first two numbers.</think>
+<answer>(81 + 28) - (15 - 2)</answer>
+
+==============
+<think>First, I need to find a combination of numbers that adds up to or gets close to 38 using the given numbers [81, 28, 15]. I will assume the first number is the left operand and try different combinations.</think>
+<answer>(81 * 28) - 15 = 38</answer>
+
+==============
+<think>First, let's try using subtraction. Subtracting 18 from 61 gives us 43, which is close to 60, but not quite there. </think>
+<answer>(61 - 18) / 19 = 3</answer>
+
+==============
+<think>First, let's think about how we can use the numbers 8, 63, and 95 to make 24. One way we could approach this is to consider the multiplication and addition operations.</think>
+<answer> (63 * 95) + 8 = 24 </answer>
+
+==============
+<think>First, I'll try to subtract the smallest number from the largest to get as close to 38 as possible. That gives me 68 - 41 = 27. Now I need to get to 38. I can subtract 9 from 38, which is 27 + 9. So, the equation now looks like this: 68 - 41 + 9 = 38. </think>
+<answer>68 - 41 + 9 = 38</answer>
+
+==============
+<think>First, I will think of possible ways to add or subtract the numbers given. I want the result to be 42. </think>
+<answer> (59 + 4) * 97 / 100 = 42 </answer>
+
+==============
+<think>First, let's try to use the largest numbers to get as close as possible to 56 quickly. Then adjust as needed. </think>
+<answer>(31 + 28) * 2 = 56</answer>
+
+==============
+<think>First, we can try adding and subtracting the numbers to see if we can get close to 56. Then, we can multiply or divide any of the numbers to reach the target. </think>
+<answer>(31 - 7) * 2 + 17 = 56</answer>
+
+==============
+<think>First, I need to reduce 65 to the given numbers and operations. To do this, I can start by adding the two smallest numbers, 45 and 9, which gives me 54. Now I have a number that is closer to 65, 54.</think>
+<answer> 54 + 11 = 65 </answer>
+
+==============
+<think>First, I need to determine which numbers will work best. Since 79 is a prime number, it's likely that we'll need to factor it into the equation which will involve 16. Let's see how we can achieve this. </think>
+<answer> (16 * 79) / 16 = 79 </answer>
+
+==============
+<think>First, I need to use all the numbers exactly once. Let's start with 5. </think>
+<answer>(5 * 17) / 39 = 84</answer>
+
+==============
+<think>First, we need to use the numbers [39, 21, 8] to create an equation that equals 26. We can't use any of the numbers more than once.</think>
+<answer> (39 - 21) * 8 = 26 </answer>
+
+==============
+<think>First, I'll consider different combinations of operations between the numbers. Since we need to get 62, and we're using each number only once, let's start with addition. </think>
+<answer> 58 + (22 - 18) = 62 </answer>
+
+==============
+<think>First, I need to make 62 using the given numbers [22, 58, 18]. Since I can't use any number more than once and I need to use the four basic operations (+, -, *, /), I should start with the largest possible number. 58 can be used twice, so I'll try to get close to 62 using these numbers.</think>
+<answer>(58 * 2) - 22 + 18 = 62</answer>
+
+==============
+<think> The numbers are [84, 39, 35, 45]. We need to use each number once to form an equation that equals 21. Basic operations allowed are (+, -, *, /). </think>
+<answer> (84 - 39) / 35 = 21 </answer>
+
+==============
+<think>First, I'll try to use some addition and subtraction to get closer to 69. </think>
+<answer> 95 - 68 - 63 + 31 = 69 </answer>
+
+==============
+<think>First, I'll look for a combination of numbers that can multiply to 72. 8 * 9 does not work with the numbers we have. One of them is the number 76. Let's try to find a way to use it to reach 72. </think>
+<answer> (8 * 9) + 5 - 10 = 72 </answer>
+
+==============
+<think>First, I'll think of ways to use the numbers 50, 69, and 62 to get close to 43. The closest I can get with these numbers is to use subtraction, since I can't use division or multiplication in this scenario to get that close. </think>
+<answer>(50 - 69) + 62 - 43 = 43</answer>
+
+==============
+<think> I can start by trying to pair numbers together to get close to 58. 42 is very close, so I will use that. The remaining numbers are 4, 4, and 80.</think>
+<answer> 42 - (4 * 4) = 58 </answer>
+
+==============
+<think>First, let's try combining the two smaller numbers to see if we can reach 48. The sum of 25 and 23 is 48, which is exactly what we want. </think>
+<answer>46 + 25 - 23 = 48</answer>
+
+==============
+<think>First, I need to think of a way to combine these numbers to get 29, using each number only once. One possible way is to use the first two numbers.</think>
+<answer> (60 + 24) - 95 + 79 = 29 </answer>
+
+==============
+<think>First, let's consider the numbers given: 38, 86, and 79. These numbers are quite large, so we'll need to use some clever tricks to make the equation work out to 31.</think>
+Here's one way to do it:
+<answer> (86/79) * 38 - 38 = 31 </answer>
+Let's break this down:
+- First, we divide 86 by 79, which gives us 1 (since 86 is very close to 79, they cancel each other out in terms of the result).
+- Then, we multiply the result by 38, which gives us 38.
+- Finally, we subtract 38 from the previous result, leaving us with the sum of 31.
+
+==============
+<think>First, I need to think of a way to use the numbers [84, 37, 52] and basic arithmetic operations to get the number 99. I can use addition and subtraction to manipulate the numbers.</think>
+<answer> (84 + 37 - 52) = 99 </answer>
+
+==============
+<think>First, I need to find a way to combine the given numbers to get 86.</think>
+<answer> (12 * 89) - 36 = 86 </answer>
+
+==============
+<think>First, I need to find a way to get to 86 using the numbers 36, 12, and 89. Considering basic arithmetic operations and the fact that each number can only be used once, I'll try to find a pattern that will give me 86 by combining these numbers.</think>
+<answer> (89 - 12) * 36 = 86 </answer>
+
+==============
+<think>First, we need to find a way to use the numbers [58, 39, 8, 55] with basic arithmetic operations (+, -, *, /) to create an equation that equals 70. Let's start with the larger number, 58.</think>
+<answer> 58 - 8 = 50 </answer>
+
+==============
+<think>First, I need to find a way to use all the numbers in the set [41, 91, 54, 73] and the operation +, -, *, / exactly once to get the result 38.</think>
+<answer> (91 - 41) * (54 / 73) = 38 </answer>
+
+==============
+<think>First, I'll need to find a combination of numbers that can be used to get 12. I'll start by trying to use the highest possible number first, as it will make it easier to reach 12.</think>
+<answer>(62 - 48) * (50 / 43) = 12</answer>
+
+==============
+<think>First, I'll try to think of a combination that includes the number 17, since it's the largest number and we want to get close to 41. I'll subtract 17 from 41, leaving us with 24. </think>
+<answer>(41 - 17) * 2 = 41</answer>
+
+==============
+<think>81 - 15 = 66</think>
+Now, I need to come up with a way to get 44 from the remaining numbers: 82 and 29. One way is to multiply them. 
+<think>66 * (82 / 29) = 44</think>
+Therefore, the final equation is:
+<answer> (81 - 15) * (82 / 29) = 44 </answer>
+
+==============
+<think>First, I'll try to find a relationship between 49 and the numbers given.</think>
+<answer> (57 - 27) / (33 - 48) = 49 </answer>
+
+==============
+<think>First, I need to find a way to use each of the numbers exactly once and get a result of 49 using basic arithmetic operations.</think>
+<answer>(57 - 27) * 3 = 49</answer>
+
+==============
+<think>First, I need to find a way to make 81 with the given numbers [34, 47, 46, 47]. We can start by trying different combinations of these numbers. Let's try using 47 twice, as it's the highest number and could potentially be the base of our subtraction or addition. </think>
+<answer> (47 - 34) * 46 + 47 = 81 </answer>
+
+==============
+<think>First, I will try to use the numbers 27, 51, 49, and 43 to form a valid equation that equals 32. I can't use any other numbers. </think>
+<answer> ((27 + 49) - 43) * 51 = 32 </answer>
+
+==============
+<think>First, I'll see if I can get a small number that sums up to 93 with the given numbers. We have 2, 4, 10, and 90. One of these numbers is a multiple of 10, which could be our target number to make it easier. </think>
+<answer> (90 - 10) + 2 + 10 = 93 </answer>
+
+==============
+<think>First, I will try to use the largest numbers for the operations to make the result closer to 89.</think> 
+<answer> (86 - 14) * 77 / 18 = 89 </answer>
+
+==============
+<think>First, I need to think of an equation that uses all the numbers and equals 28. I could try adding or subtracting to get close to 28. Here's one way to do it:</think>
+<answer> (72 - 41) * 53 / 32 = 28 </answer>
+
+==============
+<think>First, I need to find a way to use all the numbers exactly once and get a result of 11. I can start by trying different combinations of the operations and numbers.</think>
+<answer>(25 - 49) * 85 = 11</answer>
+Here, I subtracted 49 from 25, then multiplied the result by 85, and the final result is 11.
+
+==============
+<think>First, let's try to get close to 11 using the numbers [25, 49, 85]. We could consider operations like multiplication and division.</think>
+<answer> (85 + 25) * 1 - 49 = 11 </answer>
+
+==============
+<think>First, I need to make an equation that uses all three numbers exactly once and equals 11.</think>
+<answer>(25 * 49) / 85 = 11</answer>
+
+==============
+<think>First, I need to find a way to combine these numbers to get the target number of 94. I can start by looking at the largest number, 97. Subtracting 3 would get me close to the target number. So I'll make 97 as the starting point and subtract 3. </think>
+<answer>(97 - 3) = 94</answer>
+
+==============
+<think>First, I need to find a way to get 25 using the numbers 29, 27, 28, and 56. Since we're limited to basic arithmetic operations and each number can only be used once, I'll start with the largest number and work my way down.</think>
+<answer> (56 * 4) - (29 + 27) = 25 </answer>
+
+==============
+<think>First, I need to find a way to combine the numbers 28, 23, and 72 to get 67. One possible approach is to use multiplication to increase the number 23, then subtract the result from 90 (which is a multiple of 28) to get 67.</think>
+<answer>(28 * 2) - (72 - 23) = 67</answer>
+
+==============
+<think>First, let's try to use all three numbers [9, 97, 16]. We need to get the result as 72. Let's start by subtracting 16 from 97, to get a large number, as smaller arithmetic operations will yield a result that's too small.</think>
+<answer>(97 - 16) * 9 = 72</answer>
+
+==============
+<think>First, I need to find a way to use the numbers [52, 58, 26] to make 20.</think>
+<answer> (58 - 26) * 52 = 20 </answer>
+
+==============
+<think>First, I'll try to use the largest number first to maximize the result before we use the smaller ones. 86 is the largest number, 61 is the next largest, 12 is the medium, and 26 is the smallest.</think>
+<answer>86 * 26 / 61 - 12 = 12</answer>
+Therefore, the equation that equals 12 using the numbers [26, 12, 61, 86] is: <answer>86 * 26 / 61 - 12 = 12</answer>
+
+==============
+<think>First, I need to think of a way to use the numbers 47, 4, and 4 to equal 47 with basic arithmetic operations. </think>
+<answer>(47 + 4 - 4) / 4 = 11 </answer>
+
+==============
+<think>First, I will try to use the number 54 as the whole number since it is a large one. I can then try to find a way to use 5, 12, and 37 to make up the difference from 98. </think>
+<answer> (54 - 37) * 12 + 5 = 98 </answer>
+
+==============
+<think>First, I need to find a combination of the numbers to get close to 98. The biggest number is 54, so I'll try to use it as much as possible. 54 + 37 = 91. Now, I need to add 7 more to reach 98. The numbers we have left are 5 and 12. They are both single digits, so I can't add them directly. But if I subtract 12 from 54, I can get 42, and then add 5 and 37, I can get 44. </think>
+<answer>(54 - 12) + 5 + 37 = 98</answer>
+
+==============
+<think>First, I'll try to use the number 46 as a starting point. 46 - 9 = 37, which is close to 56, but we can do better. 46 - 9 + 19 = 56. This works! Let's show our work.</think>
+<answer>46 - 9 + 19 = 56</answer>
+
+==============
+<think>First, I need to think of a way to use the numbers 63, 3, and 33 to get to 74. A good starting point might be to try to isolate one of the larger numbers, say 63. I could subtract 33 from 63 to get 30. Now I have 30 and need 44 more to reach 74. I could use 3 to get from 30 to 33, and then 1 more to get to 74. So my equation could look like this:</think>
+<answer> (63 - 33) + 3 * 3 + 1 = 74 </answer>
+
+==============
+<think>First, I need to find a way to use all the numbers [92, 46, 32, 82] exactly once and get a result of 23. Since we are allowed to use basic arithmetic operations, let's consider multiplication and division first as they can potentially produce a large enough result.</think>
+<answer> (46 * 5) - (32 * 4) = 23 </answer>
+
+==============
+<think>First, let's see how we can use the numbers 67, 27, and 5 to get as close as possible to 89 using basic arithmetic operations. </think>
+<answer>(5 * 27) + 67 = 89</answer>
+
+==============
+<think>First, I'll need to find a combination of these numbers that will give me the result of 76. I'll start by trying some combinations of addition and multiplication.</think>
+<answer>(21 * 3) + 17 - 19 = 76</answer>
+
+==============
+<think> First, let's add the two small numbers together: </think>
+<answer> (19 + 17) * 21 = 76 </answer>
+
+==============
+<think>First, I need to find a way to use each of the numbers 44, 7, and 48 exactly once.</think>
+<answer>(48 + 7) * 44 = 85</answer>
+
+==============
+<think>First, I need to find a way to add up to 42 using the numbers 7, 39, and 45. Since these are all different numbers, I can't just add them. I need to find a combination that works. </think>
+<answer>(39 - 45) + 7 = 42</answer>
+
+==============
+<think>First, I need to use the numbers to get as close as possible to 75. The number 94 is too far away, so let's use it to create a larger number.</think>
+<answer> (94 - 30) * (14 / 3) = 75 </answer>
+
+==============
+<think>First, I need to identify which numbers can work together to make 75. I'll start by dividing 94 by 3, as that gives me a higher target number. </think>
+<answer> (94 / 3) * 18 - 14 = 75 </answer>
+
+==============
+<think>First, let's try to add or subtract the numbers to see what we can get close to 11. We have 40, 88, 70, and 65.</think>
+<answer> (70 + 65 - 40) / 88 = 1 </answer>
+
+==============
+<think>First, let's try to make 32 using the given numbers. </think>
+<answer> (31 * 7) - (34 + 75) = 32 </answer>
+
+==============
+<think>First, I notice the numbers given are 60, 60, 42, and 87, and we need to use each number only once and use basic arithmetic operations. The target is 45. Let's use the highest number first as it often gives us the closest to the target when subtracted from it.</think>
+<answer> (87 - 42) * (60 / 60) = 45 </answer>
+
+==============
+<think>First, we need to find a way to combine the numbers to make 97. A possible approach could be to multiply 87 and an unknown number, then subtract the product from 97.</think>
+<answer>87 * 1 + 25 - 7 = 97</answer>
+
+==============
+<think>These numbers [36, 27, 9, 18] add up to 81, which is too much. Let's try using subtraction to lower the number. I'll subtract 12 to get 69. </think>
+<answer> (36 - 27) + (9 * 9) = 69, which is too much. Let's try 61 by subtracting 10.</answer>
+
+==============
+<think> Let's try to form 61 using the numbers 36, 27, 9, and 18 without repeating them. We'll need to use at least one division operation to reach 61. </think>
+<answer> ((36 + 18) * 9) / 27 = 61 </answer>
+
+==============
+<think>First, I need to find a combination of the numbers 15, 13, and 94 that adds up to 66. Once I find such a combination, I can simply compute the equation.</think>
+<answer> (15 + 13) * 94 / 100 = 66 </answer>
+
+==============
+<think>First, I'll try to use each number once and the basic arithmetic operations to achieve the result of 17.</think>
+<answer> 83 * 59 - 39 - 86 = 17 </answer>
+
+==============
+<think>Let's use the numbers to find a way to get to 67. We can't repeat any number, and we can use basic arithmetic operations. </think>
+<answer> (70 - 68) * 95 = 67 </answer>
+
+==============
+<think>First, I need to think of a way to use the numbers 3, 77, and 52 to make 79 using addition, subtraction, multiplication, or division. I will start with multiplication, as it often provides a quick way to reach a target number.</think>
+<answer> 77 * 3 - 52 = 79 </answer>
+
+==============
+<think>First, I'll start by adding and subtracting the numbers we have, just like when solving a math problem. </think>
+<answer> 30 + 50 - 71 = 51 </answer>
+
+==============
+<think>First, we need to find a combination of the given numbers [9, 20, 48] that adds up to 37 or subtracts from it to give 37. I'll start with the operations that might yield 37 directly, then I'll try combinations involving subtraction and multiplication.</think>
+<answer> (9 + 20) - 48 = 37 </answer>
+
+==============
+<think>First, I need to find a combination of these numbers that add up to or closely approach 96. </think>
+<answer>(66 - 22) * 49 - 51 = 96</answer>
+
+==============
+<think>First, I need to think of a way to use all the numbers and the addition operator (+) once. I can start by adding 10 and 12 to get 22. </think>
+<answer>(10 + 12) / 96 = 1/4</answer>
+
+==============
+<think>First, we need to find a way to use the numbers 24, 25, 83, and 8 exactly once to get a result of 74. One possible approach is to first consider adding and subtracting these numbers. </think>
+<answer>(24 - 8) * (25 + 83) = 74</answer>
+
+==============
+<think> We have to use the numbers [29, 37, 23, 26] once each to create an equation that equals 69. The basic operations we can use are addition, subtraction, multiplication, and division. Let's try to find a combination that works. </think>
+<answer> (29 - 26) * (37 - 23) = 69 </answer>
+
+==============
+<think>First, let's try to use the numbers in a way that gives us 51. I'll start with adding up some of the numbers. </think>
+<answer> (54 + 81)/95 = 51 </answer>
+
+==============
+<think>First, I notice that 31 is close to 34, so I'll try subtracting.</think>
+<answer>(34 - 31) / 91 = 26</answer>
+
+==============
+<think>First, I need to find a combination of the numbers that will add up to 20. </think>
+<answer>(11 - 4) * 64 = 648</answer>
+
+==============
+<think>First, I need to find a combination of the given numbers that will give me the result of 26.</think>
+<answer> (90 - 66) * 13 / 11 = 26 </answer>
+
+==============
+<think>First, I need to think of a way to use the numbers [97, 97, 86] to equal 86 using basic arithmetic operations.</think>
+<answer>(97 - 97) * 86 = 86</answer>
+
+==============
+<think>First, we need to make 86 using the numbers 97, 97, and 86. I can think of combining the two 97s to make 194, and then subtracting 128 to get 86. This operation can be represented as: [194 - 128 = 86].
+Now, I'll verify this solution using basic arithmetic operations and each number only once.
+[194 - 128 = 86]
+Answer: [86]</answer>
+
+==============
+<think>First, I'll try adding the largest number to the smallest number to see if their difference is close to half of the target number.</think>
+<answer>31 + 27 = 58</answer>
+
+==============
+<think>First, I need to think of a way to use the numbers [77, 93, 96] to make 74. One way to do this is by using subtraction and addition -77 + 77 - 96 + 93 = 0 + 74 = 74. However, we need to use each number only once. 77 - 93 = -16, 96 + 16 = 74. Therefore, the equation is:</think>
+<answer>77 - 93 + 96 = 74</answer>
+
+==============
+<think>First, I'll try to use the numbers [2, 99, 25] to get as close to 62 as possible with basic arithmetic operations. </think>
+<answer> (25 * 2) - 99 = 62 </answer>
+
+==============
+<think>First, I'll try to use the smallest numbers to add up to 82 because that will give me a reasonable answer quickly.</think>
+<answer>(79 - 21) * 45/22 = 82</answer>
+
+==============
+<think>First, I need to find a combination of these numbers (42, 39, 16, 7) that, when combined using basic arithmetic operations (+, -, *, /), equals 64.</think>
+<answer>(42 * 16) - 7 * 39 = 64</answer>
+
+==============
+<think>First, I will try to use some basic addition and subtraction operations to reach 55. 17 + 9 = 26, and then 26 + 15 = 41. Now, I need to add 12 to 41 to reach 55. 41 + 12 = 53, which is very close to 55. </think>
+<answer> (17 + 9) + 15 - 12 = 55 </answer>
+
+==============
+<think>Let's start by using the operations to reach the number 57 with the numbers [58, 8, 9]. I'll use a combination to get there.</think>
+<answer> (58 - 9) * 8 = 57 </answer>
+
+==============
+<think>First, I need to find numbers that add up to 89. The only way to do this with the numbers given is 17 + 18 + 54 = 89. However, these numbers don't include all of the digits from 1 to 9. So, let's try multiplying one of the numbers by 9 to make the product larger and still use all of the digits from 1 to 9.</think>
+<answer>9 * 54 + 17 = 89</answer>
+
+==============
+<think>One logical approach is to subtract the largest number from the smallest, but this won't work because we won't get 23. Let's try some other combinations.</think>
+<answer> (5 - 63) + (9 / 12) = 23 </answer>
+
+==============
+<think>First, let's try to find a way to reach 33 using the given numbers with each used once. It seems 33 is not a simple combination of our numbers, so let's try to use two or more of them.</think>
+<answer> (83 - 56) * 2 = 33 </answer>
+
+==============
+<think>First, I need to find a way to use each number exactly once and get 96. The best candidates I see here are 84, 12, and 92. 92 is a multiple of 84 (92 = 84 * 1 + 8), and 12 is a factor of 92 (12 = 92 / 8). Let me see if I can use these to my advantage.</think>
+<answer>(92 + 12) / 84 = 96</answer>
+
+==============
+<think>First, I need to find a way to get close to 49 using the numbers [20, 28, 88, 9]. A good approach would be to use multiplication and subtraction.</think>
+<answer> (9 * 2) - 20 + 28 = 49 </answer>
+
+==============
+<think>First, we need to find a way to get the number 32 using only the numbers 86, 82, 36 and each number can only be used once. I'll try different combinations of operations to see if any of them work.</think>
+<answer> (36 * 82) - 86 = 32 </answer>
+
+==============
+<think>First, I will try to find a combination that adds up to 35 using the given numbers 52, 90, 46, 20. After that, I'll see if any operation (addition, subtraction, multiplication, division) can be used to get to 35. </think>
+<answer>(52 - 90 + 46) * 20 / 100 = 35</answer>
+
+==============
+<think>First, I need to find a way to combine these numbers to get 74. I will start with the largest number and see if it can help me get close to 74.</think>
+<answer> (46 * 15) + (33 / 25) = 74 </answer>
+
+==============
+<think> First, I need to find a way to use the numbers [67, 27, 28] to get to 66 using only one set of operations. Let's try some simple operations first.</think>
+<answer> (67 * 28) / 27 = 66 </answer>
+
+==============
+<think>First, I need to combine the numbers in a way that equals 65 using the given numbers [90, 99, 56] and basic arithmetic operations.</think>
+<answer> (99 - 56) * 90 = 65 </answer>
+
+==============
+<think>First, I should look for a combination that would get us close to 80 with the smallest number of operations.</think>
+<answer>(90 - 79) * 87 / 77 = 80</answer>
+
+==============
+<think>First, I need to find a way to combine the numbers 13, 13, and 95 into an equation that equals 69. I can start by looking for a number on the RHS of the operation that I can use to cancel out one of the 13s in the LHS. Multiplying by 3 gives 39, which is close but not quite there. Let's try adding 13 to 39:</think>
+<answer>(95 + 13) * 3 = 69</answer>
+
+==============
+<think>First, I need to find a way to use 14, 26, and 24 with basic arithmetic operations to get 12. I can try with subtraction and division.</think>
+<answer> (14 + 26) / 24 = 1 </answer>
+
+==============
+<think>First, I'll look for a combination that uses each number at least once and equals 71.</think>
+<answer> ((48 - 55) * 78) / 1 = 71 </answer>
+
+==============
+<think>First, I need to think of a way to use the numbers [47, 16, 7] to equal 65. </think>
+<answer>(47 - 16) * 7 = 65</answer>
+
+==============
+<think>Firstly, I need to find a way to use the numbers 91, 27, 33, and 67 in an equation that equals 99. I will start by trying to make 99 using the largest numbers before smaller ones. </think>
+<answer>(91 - 33) * 67/27 = 99</answer>
+
+==============
+<think>First, I need to find a way to use all the numbers [79, 77, 33, 90] and the arithmetic operations to get the result of 55. </think>
+<answer> 90 - 33 - (79 + 77) = 55 </answer>
+
+==============
+<think>First, let's simplify 65 to 5 * 13 by dividing 65 by 13. Now, I need to find a way to use the remaining numbers [10, 30] to make 5.</think>
+<answer> (10 - 30) / 2 = 5 </answer>
+
+==============
+<think>First, I need to think of a way to use the number 67 with the given numbers [73, 37, 13, 41]. I can use the operations and each number only once. I can try:
+- 73 - 37 = 36 (not 67)
+- 73 - 41 = 32 (not 67)
+- 73 - 41 - 13 = 19 (not 67)
+- 73 - 41 - 13 - 37 (not 67)
+- 73 * 37 = 2701 (not 67)
+- 73 * 37/13 = 171 (not 67)
+- 73 * 37/13/41 = 67 (this works) </think>
+<answer>73 * 37/13/41 = 67</answer>
+
+==============
+<think>First, let's try using 73 as the target number. However, 73 is too large for the given options, so we'll need to come up with another approach.</think>
+<answer> (13 * 41) - 37 = 67 </answer>
+
+==============
+<think>First, I need to find a way to use 28, 55, and 15 to get close to 98. One way to do that is by using subtraction. Let's start by subtracting 15 from 55, which gives us 40. </think>
+<answer>(55 - 15) * 2 = 98</answer>
+
+==============
+<think>First, let's try to use the numbers to get close to 58.</think>
+<answer> (51 + 25) / 2 - 13 = 58 </answer>
+
+==============
+<think>First, I need to think of a way to combine these numbers to reach 69. I'll start by trying to use subtraction, as it can potentially involve the highest and lowest numbers together.</think>
+<answer> (92 - 44) + 34 - 65 = 69 </answer>
+
+==============
+<think> I need to use the numbers [20, 56, 54] and the operations (+, -, *, /) to create an equation that equals 90. One way to approach this is to try combining these numbers in different ways. </think>
+<answer>  (54 * 2) / 6 = 90 </answer>
+
+==============
+<think>First, I need to find a way to make the sum of the numbers equal to 40. I can start by using the largest number, 92, to help me reach the target. </think>
+<answer> (92 - 91) * 3 = 40 </answer>
+
+==============
+<think>First, I'll try to find a way to use all the numbers exactly once and get as close as possible to 98.</think>
+<answer> 27 + 44 - 7 - 57 = 98 </answer>
+
+==============
+<think>First, I should try to use the numbers [11, 6, 78] to make an equation that equals 83.</think>
+<answer> (11 - 6) * 78 = 83 </answer>
+
+==============
+<think>First, I will try to use the operations to generate an equation that can result in 79 using the numbers 32, 42, and 69. I'll start by seeing if I can use the division operation to get parts of the equation to work out. </think>
+<answer> (32 * 2) + (42 - 69 / 3) = 79 </answer>
+
+==============
+<think>First, I'll think about how we can use the numbers 4, 92, 42, 56, and the operation symbols +, -, *, and / to reach the number 90. </think>
+<answer> (92 * 4) + (56 - 42) = 90 </answer>
+
+==============
+<think>First, I need to find a combination of the numbers that can multiply to 39. The closest product I can get is 4*9=36, so let's use that. </think>
+<answer> (84 + 72) / 4 = 39 </answer>
+
+==============
+<think>First, I'll try to use the number 84. It's a big number, so I'll start with subtracting it from 39. However, since 84 is too large, that won't work. Next, I'll try dividing 84 by 3, which gives 28. Now, I can add 4 to 28 to get 32. Finally, I'll need to use 72, but it's already used. So, I'll try combining the numbers we still have:</think>
+<answer> (39 - 84 / 3) + 4 = 39 / 3 * 1 + 4 = 12 + 4 = 16 </answer>
+
+==============
+<think>1. I'll start by trying to use the largest number, 49, to get closer to 30. - We can use 49 - 11 to get close to 30. However, 11 is not one of the given numbers.
+2. Next, I'll subtract 38 to see if it helps: 49 - 38 = 11
+3. Now I have 11 and I need to get to 30. I can use 11 * 2 = 22
+4. Add 57 to make it 22 + 57 = 80</think>
+<answer>11 * 2 + 57 = 80</answer>
+
+==============
+<think>First, I need to find a way to use each number exactly once and make the sum equal to 22. Since 22 is an even number, it's likely we'll need to use both addition and subtraction, because multiplication and division would skew the value. </think>
+<answer>(62 - 25) * 20 / 27 = 22</answer>
+
+==============
+<think>First, I will try to find a combination of the numbers that could add up to the target number, 22.</think>
+<answer>(62 - 25) + (27 - 20) = 22</answer>
+
+==============
+<think>First, let's see if I can find any useful combinations with the numbers given. They are 88, 18, 61, and 86. </think>
+<answer>(61 * 18) - 88 - 86 = 81</answer>
+
+==============
+<think>First, we need to find a way to use the numbers [43, 2, 60] to get the number 73 using only one set of operations (I'll use addition here, as it's the simplest operation). Let's start with 43 and see if we can use the other numbers there.</think>
+<answer> (43 + 2) + 60 = 73 </answer>
+
+==============
+<think>First, let's try to find a combination that uses all the numbers exactly once and equals 31. I'll start with a simple addition or subtraction idea. </think>
+<answer> (98 - 5) / (73 - 76) = 31 </answer>
+
+==============
+<think>Let's start by trying to use some of the numbers to get closer to 12. We can try 37 - 22 first since it's larger. Then we can use 37 - 22 + 10. This gives us 25. Now we have 25 + 8, which is 33. We're close, but still not exactly 12.</think>
+<answer>(37 - 22) + 10 - 8 = 12</answer>
+
+==============
+<think>First, let's try adding or subtracting the numbers:</think>
+<answer> 94 + 59 - 17 - 70 = 61 </answer>
+
+==============
+<think>First, I'll look at the numbers we have: 56, 46, 46, and 79. I need to create an equation that equals 56 using all four numbers exactly once.</think>
+<answer> (79 - (46 + 46)) / 56 = 56 </answer>
+
+==============
+<think>First, I'll try to use subtraction to reach the target number 92. The closest subtraction that uses the numbers 44 and 71 is 71 - 44 = 27.</think>
+<answer> (65 - 71) * 44 = 92 </answer>
+
+==============
+<think>First, I need to find a combination of the operations that will get us to 51 using 56, 14, and 55. </think>
+<answer> (55 - 14) * (56 - 14) = 51 </answer>
+
+==============
+<think>First, let's try to get close to 51 using the numbers and operations. They are [56, 14, 55]. </think>
+<answer>55 - (14 * 56) = -511<br>(56 - 14) / 55 = 8/55 = 1.45 (This is close but not 51)<br>56 - (14 * 55) = -354 (This is very low)</answer>
+
+==============
+<think>First, I need to find a combination of the numbers [86, 57, 65] that adds up to 78. I'll start with a simple addition or subtraction. 86 + 57 = 143, which is too high. Let's try subtraction. 143 - 65 = 78. This works. </think>
+<answer> (86 - 57) + 65 = 78 </answer>
+
+==============
+<think>First, let's consider how we can use the numbers 86, 57, and 65 to reach the target number 78. I'll try to use multiplication and addition since they can create larger numbers easily.</think>
+<answer> (86 / 2) * (57 / 3) + 65 = 78 </answer>
+
+==============
+<think> We have the numbers 66, 55, and 66, and we need to create an equation that equals 56 using each number exactly once.</think>
+<answer>(66 - 66) + 55 = 56</answer>
+
+==============
+<think>Since we are trying to create an equation that equals 21 using the numbers 42, 75, 38, and 9, I'll start by looking for a combination that could possibly give us 21.</think>
+<answer> (38 + 9) * (42 - 75) = 21 </answer>
+
+==============
+<think> The numbers are 32, 8, 96, and 26. We need to find an equation that equals 64 using these numbers exactly once. </think>
+<answer> 96 - (32 - 8) = 64 </answer>
+
+==============
+<think>First, I need to think of a way to use the numbers 98, 79, and 6 to equal 13. </think>
+<answer> (98 - 79) / 6 = 1 </answer>
+
+==============
+<think>First, I'll look for a combination that adds up to 85 using only the numbers provided.</think>
+<answer> (66 * 13) - 96 = 85 </answer>
+
+==============
+<think>First, I need to try to get close to 48 using the numbers 63, 11, 2, and 52. One way to approach this is to start by trying to manipulate the largest number, 63, to its nearest multiple of 4. </think>
+<answer> 48 = (63 - 52) * (11 / 2) </answer>
+
+==============
+<think>First, I need to think of a way to use all three numbers [17, 97, 59] and basic arithmetic operations (+, -, *, /) to reach the target number 55. Since we can only use each number once, I'll start by trying to use 59 first. I'll see if I can form 55 using 59 and the other two numbers. </think>
+<answer> 59 - 17 - 97 / 59 </answer>
+
+==============
+<think>First, we need to find a combination of the given numbers [3, 5, 42] that adds up to 44. The number 42 is the largest, so it could be a potential candidate. Let's try adding 3 and 5 to get close to 44. </think>
+<answer> (42 - 3) + 5 = 44 </answer>
+
+==============
+<think>First, I'll think of a way to combine two of the numbers to get close to 95 without exceeding it. 87 + 69 = 156 is too high, so I'll use a smaller operation.</think>
+<answer> (87 + 43) * 85 / 69 = 95 </answer>
+
+==============
+<think>First, I need to find a way to use the numbers [29, 21, 26, 95] exactly once and use arithmetic operations to make the equation equal to 32.</think>
+<answer> (26 - 21) * 95 / 29 = 32 </answer>
+
+==============
+<think>First, I need to find a combination of the given numbers that adds up to the total I need to reach, which is 78. </think>
+<answer> (84 - 23) * (51 / 21) = 78 </answer>
+
+==============
+<think>First, we need to use each of the numbers once to get 50. One possible way to do this is to multiply 71 and 2, which gives us 142. Then, we need to subtract 8 from 142 to get 134. However, 134 is not equal to 50. So, let's try another approach.</think>
+<answer> (71 - 8) / 2 + 45 = 50 </answer>
+
+==============
+<think>First, we need to get a total of 11 using the numbers 13, 2, and 35. We can start with 13 * 2 = 26. This gives us a sum of 26. We then need to subtract 25 to get 11. So, we can subtract 35 from 26 and then add 11.</think>
+<answer> 13 * 2 - 35 + 2 = 11 </answer>
+
+==============
+<think>First, I'll try to use one of the numbers as a part of the equation without repeating it. 39, 34, 44 are all prime numbers or close to it, meaning they're not easily broken down further. Let's start with 39.</think>
+<answer> 39 - 22 = 17 </answer>
+
+==============
+<think>First, I need to think of a way to use all four numbers [40, 32, 20, 5] exactly once to reach the target sum of 57. Since we need to add up the numbers, I'll start by combining the largest numbers.</think>
+<answer> (40 + 20) * 5 - 32 = 57 </answer>
+
+==============
+<think>First, I need to find a way to use all the numbers from the list [35, 32, 41, 62] to make the number 61. </think>
+<answer> (35 + 32) - 41 = 61 </answer>
+
+==============
+<think>First, let's try to use some basic arithmetic operations to add up to 94. I'll start with adding the smallest numbers together: 7 + 18 = 25. Now we need 29 more to reach 94, so let's use the remaining two numbers in a way that adds up to 29.</think>
+<answer>(57 - 25) * (25 / 57) = 94</answer>
+
+==============
+<think>First, I need to think of a way to get 17 using the given numbers [21, 17, 20]. 
+I notice that if I subtract 21 from 20, I get -1, but to get positive 17, I should consider the negative numbers. 
+Next, I see that I can subtract 17 from 21 to get 4.</think>
+<answer>(21 - 17) + 20 = 17</answer>
+
+==============
+<think>First, I need to find a way to get 17 using the numbers 21, 17, and 20 with the given operations.</think>
+<answer>(21 - 20) * 17 = 17</answer>
+
+==============
+<think>First, I need to find a combination of these numbers that equals 26.</think>
+<answer> (71 - 14) * 3 = 26 </answer>
+
+==============
+<think>First, I need to think of a way to use the numbers to get close to 67. A good target would be 63, which is 4 less than 67.</think>
+<answer> (24 + 12) - 55 = 67 </answer>
+
+==============
+<think>Given numbers are [21, 83, 64, 20]. Their sum is 208.</think>
+<answer>(21 + 83 - 64) / 20 = 22</answer>
+
+==============
+<think>Let's try to use the operations first to make 58 with 20, 1, and 78.</think>
+<answer> 58 = (20 + 1) * 78 / 2 </answer>
